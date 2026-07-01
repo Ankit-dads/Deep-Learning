@@ -1,0 +1,6 @@
+dataset/
+face_cnn_model.pth
+trainer.yml
+attendance_log.csv
+*.pyc
+__pycache__/
