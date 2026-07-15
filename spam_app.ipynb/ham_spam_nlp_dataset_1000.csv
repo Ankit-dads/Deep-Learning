@@ -1,0 +1,1001 @@
+id,label,subject,email
+1,spam,Free Gift,Exclusive offer! Get 30% off on premium products. Buy now.
+2,spam,Exclusive Deal,You have been selected to receive a $10000 reward. Click the link to verify your account.
+3,spam,Win Big Today,Invest in our crypto platform and double your investment in 7 days.
+4,ham,Meeting Reminder,Happy birthday! Hope you have a wonderful day with your family.
+5,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+6,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+7,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+8,ham,Lunch Plan,Please find the attached report for this week's progress. Let me know your feedback.
+9,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+10,spam,Crypto Opportunity,Final reminder: Your subscription expires today. Update your payment details.
+11,spam,Claim Your Prize,Invest in our crypto platform and double your investment in 7 days.
+12,ham,Interview Schedule,I've shared the project files in the team drive. Please review them before tomorrow.
+13,ham,Lunch Plan,Thank you for your payment. Your invoice is attached for your records.
+14,spam,Exclusive Deal,Your bank account has been suspended. Confirm your credentials immediately.
+15,spam,Exclusive Deal,Your bank account has been suspended. Confirm your credentials immediately.
+16,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Tuesday.
+17,spam,Account Alert,Exclusive offer! Get 60% off on premium products. Buy now.
+18,ham,Weekly Report,I've shared the project files in the team drive. Please review them before tomorrow.
+19,ham,Vacation Photos,Happy birthday! Hope you have a wonderful day with your family.
+20,spam,Free Gift,Your parcel is waiting. Confirm your shipping address to avoid return.
+21,ham,Interview Schedule,Please find the attached report for this week's progress. Let me know your feedback.
+22,ham,Meeting Reminder,Thank you for your payment. Your invoice is attached for your records.
+23,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+24,ham,Doctor Appointment,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+25,ham,Weekly Report,Your appointment with Dr. Sharma is confirmed for Friday.
+26,ham,Lunch Plan,Please find the attached report for this week's progress. Let me know your feedback.
+27,ham,Project Update,Your appointment with Dr. Sharma is confirmed for Wednesday.
+28,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+29,ham,Class Notes,Happy birthday! Hope you have a wonderful day with your family.
+30,ham,Family Get Together,Your appointment with Dr. Sharma is confirmed for Thursday.
+31,spam,Urgent Action Required,Exclusive offer! Get 70% off on premium products. Buy now.
+32,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+33,ham,Family Get Together,Thank you for your payment. Your invoice is attached for your records.
+34,spam,Account Alert,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+35,spam,Congratulations!,You have been selected to receive a $10000 reward. Click the link to verify your account.
+36,spam,Congratulations!,Invest in our crypto platform and double your investment in 7 days.
+37,spam,Win Big Today,Earn money fast from home with no experience. Register today.
+38,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+39,spam,Claim Your Prize,You have been selected to receive a $5000 reward. Click the link to verify your account.
+40,ham,Weekly Report,"Hi Meera, just a reminder that our meeting is scheduled for Monday at 6:00 PM."
+41,ham,Doctor Appointment,Here are the class notes from today's lecture. Let me know if anything is unclear.
+42,spam,Congratulations!,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+43,spam,Win Big Today,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+44,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+45,spam,Exclusive Deal,Earn money fast from home with no experience. Register today.
+46,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+47,ham,Weekly Report,Please find the attached report for this week's progress. Let me know your feedback.
+48,ham,Interview Schedule,I've shared the project files in the team drive. Please review them before tomorrow.
+49,spam,Claim Your Prize,You have been selected to receive a $100 reward. Click the link to verify your account.
+50,spam,Crypto Opportunity,Exclusive offer! Get 50% off on premium products. Buy now.
+51,ham,Invoice Attached,Your appointment with Dr. Sharma is confirmed for Monday.
+52,spam,Free Gift,Your bank account has been suspended. Confirm your credentials immediately.
+53,spam,Limited Time Offer,Your parcel is waiting. Confirm your shipping address to avoid return.
+54,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+55,spam,Lottery Winner,You have been selected to receive a $10000 reward. Click the link to verify your account.
+56,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+57,spam,Claim Your Prize,Your parcel is waiting. Confirm your shipping address to avoid return.
+58,ham,Vacation Photos,"Hi Priya, just a reminder that our meeting is scheduled for Tuesday at 6:00 PM."
+59,ham,Weekly Report,"Hi Sneha, just a reminder that our meeting is scheduled for Friday at 10:00 AM."
+60,ham,Vacation Photos,Your appointment with Dr. Sharma is confirmed for Monday.
+61,ham,Project Update,Your appointment with Dr. Sharma is confirmed for Thursday.
+62,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+63,ham,Doctor Appointment,I've shared the project files in the team drive. Please review them before tomorrow.
+64,spam,Exclusive Deal,Your bank account has been suspended. Confirm your credentials immediately.
+65,spam,Win Big Today,Final reminder: Your subscription expires today. Update your payment details.
+66,spam,Crypto Opportunity,You have been selected to receive a $5000 reward. Click the link to verify your account.
+67,spam,Crypto Opportunity,Exclusive offer! Get 70% off on premium products. Buy now.
+68,ham,Interview Schedule,Thank you for your payment. Your invoice is attached for your records.
+69,ham,Invoice Attached,I've shared the project files in the team drive. Please review them before tomorrow.
+70,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+71,spam,Limited Time Offer,Exclusive offer! Get 70% off on premium products. Buy now.
+72,spam,Lottery Winner,Your bank account has been suspended. Confirm your credentials immediately.
+73,spam,Free Gift,You have been selected to receive a $250 reward. Click the link to verify your account.
+74,spam,Win Big Today,Invest in our crypto platform and double your investment in 7 days.
+75,ham,Family Get Together,Here are the class notes from today's lecture. Let me know if anything is unclear.
+76,spam,Exclusive Deal,Exclusive offer! Get 40% off on premium products. Buy now.
+77,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+78,spam,Urgent Action Required,Exclusive offer! Get 60% off on premium products. Buy now.
+79,spam,Congratulations!,Exclusive offer! Get 60% off on premium products. Buy now.
+80,spam,Free Gift,Final reminder: Your subscription expires today. Update your payment details.
+81,ham,Project Update,Here are the class notes from today's lecture. Let me know if anything is unclear.
+82,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+83,ham,Meeting Reminder,I've shared the project files in the team drive. Please review them before tomorrow.
+84,spam,Urgent Action Required,Exclusive offer! Get 40% off on premium products. Buy now.
+85,spam,Limited Time Offer,Your parcel is waiting. Confirm your shipping address to avoid return.
+86,spam,Win Big Today,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+87,spam,Claim Your Prize,Final reminder: Your subscription expires today. Update your payment details.
+88,spam,Lottery Winner,Your parcel is waiting. Confirm your shipping address to avoid return.
+89,spam,Lottery Winner,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+90,spam,Free Gift,Exclusive offer! Get 60% off on premium products. Buy now.
+91,spam,Crypto Opportunity,Invest in our crypto platform and double your investment in 7 days.
+92,ham,Vacation Photos,"Hi Karan, just a reminder that our meeting is scheduled for Friday at 2:30 PM."
+93,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+94,spam,Crypto Opportunity,Invest in our crypto platform and double your investment in 7 days.
+95,spam,Claim Your Prize,Exclusive offer! Get 80% off on premium products. Buy now.
+96,ham,Family Get Together,Here are the class notes from today's lecture. Let me know if anything is unclear.
+97,ham,Interview Schedule,Here are the class notes from today's lecture. Let me know if anything is unclear.
+98,spam,Limited Time Offer,Earn money fast from home with no experience. Register today.
+99,spam,Limited Time Offer,Earn money fast from home with no experience. Register today.
+100,spam,Free Gift,Earn money fast from home with no experience. Register today.
+101,ham,Lunch Plan,Happy birthday! Hope you have a wonderful day with your family.
+102,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+103,spam,Claim Your Prize,Final reminder: Your subscription expires today. Update your payment details.
+104,spam,Limited Time Offer,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+105,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+106,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+107,spam,Win Big Today,Your bank account has been suspended. Confirm your credentials immediately.
+108,ham,Project Update,Your appointment with Dr. Sharma is confirmed for Monday.
+109,ham,Project Update,Thank you for your payment. Your invoice is attached for your records.
+110,spam,Claim Your Prize,Exclusive offer! Get 40% off on premium products. Buy now.
+111,spam,Win Big Today,Your parcel is waiting. Confirm your shipping address to avoid return.
+112,spam,Crypto Opportunity,Earn money fast from home with no experience. Register today.
+113,spam,Lottery Winner,Earn money fast from home with no experience. Register today.
+114,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Monday.
+115,ham,Invoice Attached,I've shared the project files in the team drive. Please review them before tomorrow.
+116,ham,Weekly Report,Here are the class notes from today's lecture. Let me know if anything is unclear.
+117,spam,Claim Your Prize,You have been selected to receive a $250 reward. Click the link to verify your account.
+118,ham,Project Update,"Hi Rahul, just a reminder that our meeting is scheduled for Thursday at 10:00 AM."
+119,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Tuesday.
+120,ham,Doctor Appointment,Happy birthday! Hope you have a wonderful day with your family.
+121,spam,Win Big Today,Exclusive offer! Get 50% off on premium products. Buy now.
+122,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+123,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+124,spam,Exclusive Deal,Your parcel is waiting. Confirm your shipping address to avoid return.
+125,ham,Weekly Report,Your appointment with Dr. Sharma is confirmed for Monday.
+126,spam,Crypto Opportunity,You have been selected to receive a $10000 reward. Click the link to verify your account.
+127,ham,Interview Schedule,Here are the class notes from today's lecture. Let me know if anything is unclear.
+128,ham,Family Get Together,Your appointment with Dr. Sharma is confirmed for Monday.
+129,spam,Limited Time Offer,Earn money fast from home with no experience. Register today.
+130,spam,Free Gift,Final reminder: Your subscription expires today. Update your payment details.
+131,spam,Win Big Today,Invest in our crypto platform and double your investment in 7 days.
+132,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+133,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+134,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+135,ham,Class Notes,"Hi Riya, just a reminder that our meeting is scheduled for Monday at 10:00 AM."
+136,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+137,spam,Limited Time Offer,Exclusive offer! Get 80% off on premium products. Buy now.
+138,ham,Lunch Plan,Thank you for your payment. Your invoice is attached for your records.
+139,spam,Exclusive Deal,Final reminder: Your subscription expires today. Update your payment details.
+140,spam,Exclusive Deal,Invest in our crypto platform and double your investment in 7 days.
+141,ham,Family Get Together,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+142,spam,Exclusive Deal,Earn money fast from home with no experience. Register today.
+143,ham,Doctor Appointment,Please find the attached report for this week's progress. Let me know your feedback.
+144,spam,Congratulations!,You have been selected to receive a $100 reward. Click the link to verify your account.
+145,ham,Family Get Together,Thank you for your payment. Your invoice is attached for your records.
+146,spam,Crypto Opportunity,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+147,spam,Claim Your Prize,Exclusive offer! Get 60% off on premium products. Buy now.
+148,ham,Family Get Together,Your appointment with Dr. Sharma is confirmed for Thursday.
+149,ham,Vacation Photos,I've shared the project files in the team drive. Please review them before tomorrow.
+150,spam,Crypto Opportunity,You have been selected to receive a $1000 reward. Click the link to verify your account.
+151,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Tuesday.
+152,ham,Doctor Appointment,Thank you for your payment. Your invoice is attached for your records.
+153,spam,Limited Time Offer,Final reminder: Your subscription expires today. Update your payment details.
+154,spam,Exclusive Deal,You have been selected to receive a $500 reward. Click the link to verify your account.
+155,spam,Crypto Opportunity,Final reminder: Your subscription expires today. Update your payment details.
+156,ham,Invoice Attached,Please find the attached report for this week's progress. Let me know your feedback.
+157,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+158,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+159,ham,Weekly Report,"Hi Sneha, just a reminder that our meeting is scheduled for Wednesday at 6:00 PM."
+160,ham,Family Get Together,Please find the attached report for this week's progress. Let me know your feedback.
+161,spam,Claim Your Prize,Final reminder: Your subscription expires today. Update your payment details.
+162,ham,Weekly Report,Here are the class notes from today's lecture. Let me know if anything is unclear.
+163,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+164,spam,Claim Your Prize,Final reminder: Your subscription expires today. Update your payment details.
+165,spam,Account Alert,You have been selected to receive a $250 reward. Click the link to verify your account.
+166,spam,Crypto Opportunity,Your bank account has been suspended. Confirm your credentials immediately.
+167,spam,Account Alert,Earn money fast from home with no experience. Register today.
+168,ham,Invoice Attached,Your appointment with Dr. Sharma is confirmed for Monday.
+169,spam,Claim Your Prize,Your parcel is waiting. Confirm your shipping address to avoid return.
+170,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+171,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+172,ham,Doctor Appointment,Thank you for your payment. Your invoice is attached for your records.
+173,ham,Interview Schedule,"Hi Vikram, just a reminder that our meeting is scheduled for Wednesday at 11:15 AM."
+174,spam,Claim Your Prize,Your bank account has been suspended. Confirm your credentials immediately.
+175,spam,Win Big Today,Invest in our crypto platform and double your investment in 7 days.
+176,spam,Exclusive Deal,Earn money fast from home with no experience. Register today.
+177,spam,Urgent Action Required,You have been selected to receive a $500 reward. Click the link to verify your account.
+178,ham,Class Notes,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+179,spam,Limited Time Offer,Earn money fast from home with no experience. Register today.
+180,spam,Exclusive Deal,Exclusive offer! Get 40% off on premium products. Buy now.
+181,spam,Free Gift,Exclusive offer! Get 30% off on premium products. Buy now.
+182,ham,Interview Schedule,I've shared the project files in the team drive. Please review them before tomorrow.
+183,ham,Doctor Appointment,Please find the attached report for this week's progress. Let me know your feedback.
+184,ham,Project Update,Here are the class notes from today's lecture. Let me know if anything is unclear.
+185,spam,Win Big Today,Your bank account has been suspended. Confirm your credentials immediately.
+186,ham,Vacation Photos,Your appointment with Dr. Sharma is confirmed for Friday.
+187,ham,Weekly Report,Please find the attached report for this week's progress. Let me know your feedback.
+188,spam,Account Alert,Earn money fast from home with no experience. Register today.
+189,ham,Project Update,Your appointment with Dr. Sharma is confirmed for Friday.
+190,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+191,ham,Weekly Report,Here are the class notes from today's lecture. Let me know if anything is unclear.
+192,spam,Limited Time Offer,Your bank account has been suspended. Confirm your credentials immediately.
+193,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+194,ham,Lunch Plan,Happy birthday! Hope you have a wonderful day with your family.
+195,spam,Exclusive Deal,You have been selected to receive a $1000 reward. Click the link to verify your account.
+196,spam,Win Big Today,You have been selected to receive a $1000 reward. Click the link to verify your account.
+197,spam,Free Gift,Your parcel is waiting. Confirm your shipping address to avoid return.
+198,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+199,ham,Project Update,Please find the attached report for this week's progress. Let me know your feedback.
+200,spam,Win Big Today,Exclusive offer! Get 60% off on premium products. Buy now.
+201,spam,Account Alert,Invest in our crypto platform and double your investment in 7 days.
+202,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+203,spam,Congratulations!,Your bank account has been suspended. Confirm your credentials immediately.
+204,ham,Vacation Photos,Happy birthday! Hope you have a wonderful day with your family.
+205,ham,Meeting Reminder,Thank you for your payment. Your invoice is attached for your records.
+206,spam,Free Gift,Final reminder: Your subscription expires today. Update your payment details.
+207,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+208,ham,Weekly Report,Your appointment with Dr. Sharma is confirmed for Monday.
+209,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+210,spam,Congratulations!,Your bank account has been suspended. Confirm your credentials immediately.
+211,ham,Meeting Reminder,I've shared the project files in the team drive. Please review them before tomorrow.
+212,ham,Class Notes,Your appointment with Dr. Sharma is confirmed for Thursday.
+213,ham,Weekly Report,Here are the class notes from today's lecture. Let me know if anything is unclear.
+214,spam,Lottery Winner,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+215,ham,Family Get Together,Your appointment with Dr. Sharma is confirmed for Friday.
+216,spam,Congratulations!,You have been selected to receive a $100 reward. Click the link to verify your account.
+217,ham,Lunch Plan,Your appointment with Dr. Sharma is confirmed for Tuesday.
+218,spam,Crypto Opportunity,Earn money fast from home with no experience. Register today.
+219,ham,Class Notes,Please find the attached report for this week's progress. Let me know your feedback.
+220,spam,Claim Your Prize,Exclusive offer! Get 50% off on premium products. Buy now.
+221,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+222,ham,Doctor Appointment,Thank you for your payment. Your invoice is attached for your records.
+223,ham,Doctor Appointment,Here are the class notes from today's lecture. Let me know if anything is unclear.
+224,ham,Class Notes,Thank you for your payment. Your invoice is attached for your records.
+225,ham,Lunch Plan,"Hi Neha, just a reminder that our meeting is scheduled for Thursday at 11:15 AM."
+226,ham,Vacation Photos,Please find the attached report for this week's progress. Let me know your feedback.
+227,ham,Doctor Appointment,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+228,spam,Lottery Winner,Your bank account has been suspended. Confirm your credentials immediately.
+229,spam,Claim Your Prize,You have been selected to receive a $250 reward. Click the link to verify your account.
+230,spam,Account Alert,Exclusive offer! Get 80% off on premium products. Buy now.
+231,ham,Project Update,"Hi Aman, just a reminder that our meeting is scheduled for Thursday at 6:00 PM."
+232,ham,Lunch Plan,Thank you for your payment. Your invoice is attached for your records.
+233,spam,Claim Your Prize,Invest in our crypto platform and double your investment in 7 days.
+234,spam,Limited Time Offer,Earn money fast from home with no experience. Register today.
+235,spam,Lottery Winner,You have been selected to receive a $500 reward. Click the link to verify your account.
+236,ham,Project Update,"Hi Meera, just a reminder that our meeting is scheduled for Wednesday at 2:30 PM."
+237,ham,Doctor Appointment,"Hi Vikram, just a reminder that our meeting is scheduled for Wednesday at 11:15 AM."
+238,ham,Project Update,Here are the class notes from today's lecture. Let me know if anything is unclear.
+239,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+240,ham,Doctor Appointment,Happy birthday! Hope you have a wonderful day with your family.
+241,spam,Claim Your Prize,Exclusive offer! Get 80% off on premium products. Buy now.
+242,spam,Free Gift,Your parcel is waiting. Confirm your shipping address to avoid return.
+243,spam,Exclusive Deal,Exclusive offer! Get 40% off on premium products. Buy now.
+244,ham,Doctor Appointment,I've shared the project files in the team drive. Please review them before tomorrow.
+245,spam,Win Big Today,Your parcel is waiting. Confirm your shipping address to avoid return.
+246,spam,Claim Your Prize,You have been selected to receive a $10000 reward. Click the link to verify your account.
+247,spam,Crypto Opportunity,Earn money fast from home with no experience. Register today.
+248,ham,Vacation Photos,Thank you for your payment. Your invoice is attached for your records.
+249,ham,Doctor Appointment,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+250,ham,Lunch Plan,Please find the attached report for this week's progress. Let me know your feedback.
+251,ham,Weekly Report,Here are the class notes from today's lecture. Let me know if anything is unclear.
+252,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+253,spam,Crypto Opportunity,Exclusive offer! Get 30% off on premium products. Buy now.
+254,spam,Crypto Opportunity,Your bank account has been suspended. Confirm your credentials immediately.
+255,ham,Project Update,Happy birthday! Hope you have a wonderful day with your family.
+256,spam,Win Big Today,Invest in our crypto platform and double your investment in 7 days.
+257,ham,Interview Schedule,"Hi Karan, just a reminder that our meeting is scheduled for Thursday at 4:00 PM."
+258,spam,Exclusive Deal,Invest in our crypto platform and double your investment in 7 days.
+259,ham,Project Update,Your appointment with Dr. Sharma is confirmed for Monday.
+260,ham,Invoice Attached,Your appointment with Dr. Sharma is confirmed for Wednesday.
+261,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+262,spam,Limited Time Offer,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+263,ham,Lunch Plan,"Hi Aman, just a reminder that our meeting is scheduled for Thursday at 2:30 PM."
+264,ham,Invoice Attached,Here are the class notes from today's lecture. Let me know if anything is unclear.
+265,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+266,spam,Lottery Winner,Invest in our crypto platform and double your investment in 7 days.
+267,ham,Interview Schedule,"Hi Neha, just a reminder that our meeting is scheduled for Monday at 11:15 AM."
+268,ham,Vacation Photos,Happy birthday! Hope you have a wonderful day with your family.
+269,spam,Crypto Opportunity,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+270,ham,Weekly Report,Happy birthday! Hope you have a wonderful day with your family.
+271,spam,Limited Time Offer,You have been selected to receive a $100 reward. Click the link to verify your account.
+272,spam,Exclusive Deal,Invest in our crypto platform and double your investment in 7 days.
+273,spam,Congratulations!,Invest in our crypto platform and double your investment in 7 days.
+274,ham,Weekly Report,Here are the class notes from today's lecture. Let me know if anything is unclear.
+275,ham,Meeting Reminder,Your appointment with Dr. Sharma is confirmed for Monday.
+276,ham,Family Get Together,Please find the attached report for this week's progress. Let me know your feedback.
+277,ham,Project Update,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+278,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+279,ham,Meeting Reminder,Your appointment with Dr. Sharma is confirmed for Wednesday.
+280,ham,Vacation Photos,Please find the attached report for this week's progress. Let me know your feedback.
+281,ham,Doctor Appointment,Can we have lunch tomorrow around 4:00 PM? Let me know if that works.
+282,ham,Interview Schedule,I've shared the project files in the team drive. Please review them before tomorrow.
+283,spam,Urgent Action Required,Your bank account has been suspended. Confirm your credentials immediately.
+284,ham,Lunch Plan,Please find the attached report for this week's progress. Let me know your feedback.
+285,spam,Win Big Today,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+286,spam,Congratulations!,Exclusive offer! Get 50% off on premium products. Buy now.
+287,spam,Crypto Opportunity,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+288,spam,Free Gift,Your parcel is waiting. Confirm your shipping address to avoid return.
+289,spam,Exclusive Deal,Exclusive offer! Get 40% off on premium products. Buy now.
+290,ham,Invoice Attached,Can we have lunch tomorrow around 4:00 PM? Let me know if that works.
+291,spam,Exclusive Deal,Earn money fast from home with no experience. Register today.
+292,spam,Crypto Opportunity,Invest in our crypto platform and double your investment in 7 days.
+293,spam,Account Alert,Earn money fast from home with no experience. Register today.
+294,ham,Project Update,I've shared the project files in the team drive. Please review them before tomorrow.
+295,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+296,spam,Congratulations!,Earn money fast from home with no experience. Register today.
+297,ham,Class Notes,Happy birthday! Hope you have a wonderful day with your family.
+298,spam,Free Gift,Invest in our crypto platform and double your investment in 7 days.
+299,spam,Account Alert,You have been selected to receive a $250 reward. Click the link to verify your account.
+300,spam,Claim Your Prize,Invest in our crypto platform and double your investment in 7 days.
+301,spam,Crypto Opportunity,You have been selected to receive a $5000 reward. Click the link to verify your account.
+302,ham,Project Update,Please find the attached report for this week's progress. Let me know your feedback.
+303,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Thursday.
+304,spam,Account Alert,Earn money fast from home with no experience. Register today.
+305,spam,Lottery Winner,Invest in our crypto platform and double your investment in 7 days.
+306,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+307,ham,Doctor Appointment,Here are the class notes from today's lecture. Let me know if anything is unclear.
+308,ham,Interview Schedule,Thank you for your payment. Your invoice is attached for your records.
+309,ham,Interview Schedule,Please find the attached report for this week's progress. Let me know your feedback.
+310,ham,Project Update,"Hi Sneha, just a reminder that our meeting is scheduled for Thursday at 2:30 PM."
+311,ham,Invoice Attached,"Hi Karan, just a reminder that our meeting is scheduled for Tuesday at 6:00 PM."
+312,spam,Congratulations!,Exclusive offer! Get 30% off on premium products. Buy now.
+313,ham,Family Get Together,Happy birthday! Hope you have a wonderful day with your family.
+314,ham,Vacation Photos,Please find the attached report for this week's progress. Let me know your feedback.
+315,ham,Doctor Appointment,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+316,spam,Account Alert,Earn money fast from home with no experience. Register today.
+317,spam,Exclusive Deal,Exclusive offer! Get 30% off on premium products. Buy now.
+318,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Friday.
+319,ham,Vacation Photos,Please find the attached report for this week's progress. Let me know your feedback.
+320,ham,Lunch Plan,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+321,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+322,spam,Limited Time Offer,Invest in our crypto platform and double your investment in 7 days.
+323,spam,Account Alert,Exclusive offer! Get 80% off on premium products. Buy now.
+324,ham,Vacation Photos,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+325,spam,Limited Time Offer,Final reminder: Your subscription expires today. Update your payment details.
+326,ham,Family Get Together,Please find the attached report for this week's progress. Let me know your feedback.
+327,ham,Project Update,Please find the attached report for this week's progress. Let me know your feedback.
+328,ham,Invoice Attached,Here are the class notes from today's lecture. Let me know if anything is unclear.
+329,ham,Vacation Photos,Thank you for your payment. Your invoice is attached for your records.
+330,spam,Exclusive Deal,Exclusive offer! Get 60% off on premium products. Buy now.
+331,ham,Family Get Together,Please find the attached report for this week's progress. Let me know your feedback.
+332,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+333,spam,Exclusive Deal,Invest in our crypto platform and double your investment in 7 days.
+334,spam,Lottery Winner,Your bank account has been suspended. Confirm your credentials immediately.
+335,ham,Interview Schedule,Here are the class notes from today's lecture. Let me know if anything is unclear.
+336,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+337,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+338,spam,Exclusive Deal,Final reminder: Your subscription expires today. Update your payment details.
+339,ham,Doctor Appointment,"Hi Sneha, just a reminder that our meeting is scheduled for Monday at 4:00 PM."
+340,spam,Congratulations!,Your parcel is waiting. Confirm your shipping address to avoid return.
+341,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+342,spam,Limited Time Offer,Your parcel is waiting. Confirm your shipping address to avoid return.
+343,ham,Doctor Appointment,Your appointment with Dr. Sharma is confirmed for Friday.
+344,ham,Meeting Reminder,"Hi Aman, just a reminder that our meeting is scheduled for Thursday at 6:00 PM."
+345,spam,Free Gift,Earn money fast from home with no experience. Register today.
+346,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+347,spam,Lottery Winner,Final reminder: Your subscription expires today. Update your payment details.
+348,ham,Family Get Together,Happy birthday! Hope you have a wonderful day with your family.
+349,spam,Congratulations!,Your parcel is waiting. Confirm your shipping address to avoid return.
+350,spam,Win Big Today,Earn money fast from home with no experience. Register today.
+351,spam,Crypto Opportunity,You have been selected to receive a $250 reward. Click the link to verify your account.
+352,ham,Doctor Appointment,Here are the class notes from today's lecture. Let me know if anything is unclear.
+353,ham,Doctor Appointment,Happy birthday! Hope you have a wonderful day with your family.
+354,ham,Invoice Attached,Happy birthday! Hope you have a wonderful day with your family.
+355,ham,Interview Schedule,"Hi Priya, just a reminder that our meeting is scheduled for Thursday at 2:30 PM."
+356,ham,Invoice Attached,Your appointment with Dr. Sharma is confirmed for Thursday.
+357,ham,Doctor Appointment,Can we have lunch tomorrow around 6:00 PM? Let me know if that works.
+358,spam,Crypto Opportunity,Your bank account has been suspended. Confirm your credentials immediately.
+359,spam,Crypto Opportunity,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+360,ham,Lunch Plan,Your appointment with Dr. Sharma is confirmed for Thursday.
+361,ham,Meeting Reminder,Here are the class notes from today's lecture. Let me know if anything is unclear.
+362,spam,Crypto Opportunity,Your parcel is waiting. Confirm your shipping address to avoid return.
+363,ham,Project Update,Happy birthday! Hope you have a wonderful day with your family.
+364,spam,Win Big Today,Exclusive offer! Get 30% off on premium products. Buy now.
+365,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Tuesday.
+366,ham,Project Update,Your appointment with Dr. Sharma is confirmed for Wednesday.
+367,ham,Interview Schedule,Please find the attached report for this week's progress. Let me know your feedback.
+368,spam,Claim Your Prize,Your bank account has been suspended. Confirm your credentials immediately.
+369,spam,Limited Time Offer,Your bank account has been suspended. Confirm your credentials immediately.
+370,spam,Free Gift,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+371,ham,Meeting Reminder,Can we have lunch tomorrow around 4:00 PM? Let me know if that works.
+372,ham,Project Update,I've shared the project files in the team drive. Please review them before tomorrow.
+373,ham,Project Update,I've shared the project files in the team drive. Please review them before tomorrow.
+374,ham,Vacation Photos,"Hi Ankit, just a reminder that our meeting is scheduled for Tuesday at 4:00 PM."
+375,spam,Free Gift,Invest in our crypto platform and double your investment in 7 days.
+376,spam,Exclusive Deal,Your parcel is waiting. Confirm your shipping address to avoid return.
+377,ham,Invoice Attached,I've shared the project files in the team drive. Please review them before tomorrow.
+378,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+379,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+380,spam,Crypto Opportunity,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+381,spam,Limited Time Offer,Invest in our crypto platform and double your investment in 7 days.
+382,spam,Limited Time Offer,Invest in our crypto platform and double your investment in 7 days.
+383,ham,Vacation Photos,Here are the class notes from today's lecture. Let me know if anything is unclear.
+384,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+385,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+386,spam,Crypto Opportunity,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+387,spam,Exclusive Deal,Your bank account has been suspended. Confirm your credentials immediately.
+388,spam,Congratulations!,Earn money fast from home with no experience. Register today.
+389,ham,Meeting Reminder,"Hi Riya, just a reminder that our meeting is scheduled for Wednesday at 10:00 AM."
+390,ham,Interview Schedule,I've shared the project files in the team drive. Please review them before tomorrow.
+391,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+392,spam,Lottery Winner,Earn money fast from home with no experience. Register today.
+393,ham,Project Update,I've shared the project files in the team drive. Please review them before tomorrow.
+394,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+395,ham,Family Get Together,Can we have lunch tomorrow around 4:00 PM? Let me know if that works.
+396,ham,Meeting Reminder,Here are the class notes from today's lecture. Let me know if anything is unclear.
+397,spam,Claim Your Prize,You have been selected to receive a $1000 reward. Click the link to verify your account.
+398,ham,Interview Schedule,Please find the attached report for this week's progress. Let me know your feedback.
+399,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+400,ham,Lunch Plan,Thank you for your payment. Your invoice is attached for your records.
+401,spam,Lottery Winner,Invest in our crypto platform and double your investment in 7 days.
+402,spam,Win Big Today,Exclusive offer! Get 50% off on premium products. Buy now.
+403,ham,Vacation Photos,Thank you for your payment. Your invoice is attached for your records.
+404,ham,Interview Schedule,Here are the class notes from today's lecture. Let me know if anything is unclear.
+405,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+406,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+407,spam,Lottery Winner,Exclusive offer! Get 30% off on premium products. Buy now.
+408,spam,Exclusive Deal,Final reminder: Your subscription expires today. Update your payment details.
+409,spam,Exclusive Deal,Earn money fast from home with no experience. Register today.
+410,ham,Class Notes,Can we have lunch tomorrow around 4:00 PM? Let me know if that works.
+411,spam,Crypto Opportunity,Your bank account has been suspended. Confirm your credentials immediately.
+412,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+413,ham,Invoice Attached,"Hi Neha, just a reminder that our meeting is scheduled for Monday at 4:00 PM."
+414,ham,Weekly Report,Here are the class notes from today's lecture. Let me know if anything is unclear.
+415,ham,Lunch Plan,Please find the attached report for this week's progress. Let me know your feedback.
+416,ham,Project Update,Happy birthday! Hope you have a wonderful day with your family.
+417,ham,Meeting Reminder,Please find the attached report for this week's progress. Let me know your feedback.
+418,spam,Urgent Action Required,You have been selected to receive a $5000 reward. Click the link to verify your account.
+419,ham,Weekly Report,Your appointment with Dr. Sharma is confirmed for Monday.
+420,ham,Project Update,"Hi Aman, just a reminder that our meeting is scheduled for Tuesday at 2:30 PM."
+421,ham,Invoice Attached,Here are the class notes from today's lecture. Let me know if anything is unclear.
+422,ham,Meeting Reminder,"Hi Neha, just a reminder that our meeting is scheduled for Tuesday at 10:00 AM."
+423,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+424,ham,Interview Schedule,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+425,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+426,ham,Doctor Appointment,Your appointment with Dr. Sharma is confirmed for Monday.
+427,ham,Meeting Reminder,Here are the class notes from today's lecture. Let me know if anything is unclear.
+428,ham,Meeting Reminder,I've shared the project files in the team drive. Please review them before tomorrow.
+429,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+430,spam,Lottery Winner,Earn money fast from home with no experience. Register today.
+431,ham,Class Notes,Thank you for your payment. Your invoice is attached for your records.
+432,ham,Weekly Report,Happy birthday! Hope you have a wonderful day with your family.
+433,spam,Win Big Today,You have been selected to receive a $250 reward. Click the link to verify your account.
+434,spam,Claim Your Prize,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+435,ham,Invoice Attached,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+436,ham,Class Notes,Your appointment with Dr. Sharma is confirmed for Friday.
+437,ham,Meeting Reminder,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+438,spam,Account Alert,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+439,spam,Claim Your Prize,Exclusive offer! Get 80% off on premium products. Buy now.
+440,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+441,ham,Doctor Appointment,Here are the class notes from today's lecture. Let me know if anything is unclear.
+442,spam,Claim Your Prize,Exclusive offer! Get 30% off on premium products. Buy now.
+443,spam,Exclusive Deal,Your bank account has been suspended. Confirm your credentials immediately.
+444,ham,Doctor Appointment,Happy birthday! Hope you have a wonderful day with your family.
+445,ham,Interview Schedule,Here are the class notes from today's lecture. Let me know if anything is unclear.
+446,spam,Free Gift,Invest in our crypto platform and double your investment in 7 days.
+447,ham,Invoice Attached,I've shared the project files in the team drive. Please review them before tomorrow.
+448,spam,Lottery Winner,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+449,ham,Meeting Reminder,Thank you for your payment. Your invoice is attached for your records.
+450,spam,Free Gift,Invest in our crypto platform and double your investment in 7 days.
+451,ham,Project Update,Thank you for your payment. Your invoice is attached for your records.
+452,spam,Claim Your Prize,Final reminder: Your subscription expires today. Update your payment details.
+453,spam,Congratulations!,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+454,ham,Project Update,Thank you for your payment. Your invoice is attached for your records.
+455,ham,Vacation Photos,"Hi Rahul, just a reminder that our meeting is scheduled for Tuesday at 6:00 PM."
+456,spam,Free Gift,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+457,ham,Project Update,Here are the class notes from today's lecture. Let me know if anything is unclear.
+458,spam,Congratulations!,Final reminder: Your subscription expires today. Update your payment details.
+459,spam,Lottery Winner,Exclusive offer! Get 60% off on premium products. Buy now.
+460,ham,Class Notes,"Hi Riya, just a reminder that our meeting is scheduled for Friday at 2:30 PM."
+461,spam,Limited Time Offer,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+462,ham,Interview Schedule,Thank you for your payment. Your invoice is attached for your records.
+463,ham,Invoice Attached,Here are the class notes from today's lecture. Let me know if anything is unclear.
+464,ham,Weekly Report,Thank you for your payment. Your invoice is attached for your records.
+465,ham,Class Notes,Can we have lunch tomorrow around 6:00 PM? Let me know if that works.
+466,ham,Class Notes,Here are the class notes from today's lecture. Let me know if anything is unclear.
+467,ham,Weekly Report,Please find the attached report for this week's progress. Let me know your feedback.
+468,ham,Project Update,Happy birthday! Hope you have a wonderful day with your family.
+469,ham,Family Get Together,"Hi Priya, just a reminder that our meeting is scheduled for Wednesday at 10:00 AM."
+470,spam,Congratulations!,Your bank account has been suspended. Confirm your credentials immediately.
+471,ham,Weekly Report,Please find the attached report for this week's progress. Let me know your feedback.
+472,spam,Crypto Opportunity,Invest in our crypto platform and double your investment in 7 days.
+473,ham,Class Notes,Happy birthday! Hope you have a wonderful day with your family.
+474,ham,Doctor Appointment,"Hi Ankit, just a reminder that our meeting is scheduled for Monday at 2:30 PM."
+475,spam,Crypto Opportunity,Invest in our crypto platform and double your investment in 7 days.
+476,ham,Project Update,Your appointment with Dr. Sharma is confirmed for Tuesday.
+477,spam,Win Big Today,Your parcel is waiting. Confirm your shipping address to avoid return.
+478,ham,Meeting Reminder,I've shared the project files in the team drive. Please review them before tomorrow.
+479,spam,Account Alert,Earn money fast from home with no experience. Register today.
+480,spam,Limited Time Offer,Invest in our crypto platform and double your investment in 7 days.
+481,ham,Family Get Together,Happy birthday! Hope you have a wonderful day with your family.
+482,ham,Family Get Together,Your appointment with Dr. Sharma is confirmed for Friday.
+483,ham,Vacation Photos,Happy birthday! Hope you have a wonderful day with your family.
+484,ham,Invoice Attached,"Hi Meera, just a reminder that our meeting is scheduled for Thursday at 2:30 PM."
+485,ham,Family Get Together,Happy birthday! Hope you have a wonderful day with your family.
+486,ham,Invoice Attached,Happy birthday! Hope you have a wonderful day with your family.
+487,ham,Invoice Attached,Here are the class notes from today's lecture. Let me know if anything is unclear.
+488,spam,Lottery Winner,Your parcel is waiting. Confirm your shipping address to avoid return.
+489,spam,Win Big Today,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+490,ham,Weekly Report,Happy birthday! Hope you have a wonderful day with your family.
+491,ham,Family Get Together,Happy birthday! Hope you have a wonderful day with your family.
+492,ham,Class Notes,Thank you for your payment. Your invoice is attached for your records.
+493,spam,Crypto Opportunity,Your bank account has been suspended. Confirm your credentials immediately.
+494,spam,Account Alert,Exclusive offer! Get 30% off on premium products. Buy now.
+495,spam,Free Gift,Invest in our crypto platform and double your investment in 7 days.
+496,spam,Crypto Opportunity,Earn money fast from home with no experience. Register today.
+497,spam,Free Gift,Invest in our crypto platform and double your investment in 7 days.
+498,ham,Interview Schedule,Thank you for your payment. Your invoice is attached for your records.
+499,ham,Doctor Appointment,Thank you for your payment. Your invoice is attached for your records.
+500,ham,Weekly Report,Thank you for your payment. Your invoice is attached for your records.
+501,ham,Interview Schedule,I've shared the project files in the team drive. Please review them before tomorrow.
+502,spam,Exclusive Deal,Invest in our crypto platform and double your investment in 7 days.
+503,ham,Project Update,I've shared the project files in the team drive. Please review them before tomorrow.
+504,ham,Invoice Attached,Happy birthday! Hope you have a wonderful day with your family.
+505,spam,Win Big Today,Earn money fast from home with no experience. Register today.
+506,ham,Project Update,Happy birthday! Hope you have a wonderful day with your family.
+507,ham,Weekly Report,Thank you for your payment. Your invoice is attached for your records.
+508,ham,Project Update,Happy birthday! Hope you have a wonderful day with your family.
+509,spam,Free Gift,Your parcel is waiting. Confirm your shipping address to avoid return.
+510,spam,Win Big Today,Earn money fast from home with no experience. Register today.
+511,ham,Meeting Reminder,Thank you for your payment. Your invoice is attached for your records.
+512,spam,Limited Time Offer,Exclusive offer! Get 60% off on premium products. Buy now.
+513,spam,Win Big Today,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+514,spam,Free Gift,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+515,ham,Class Notes,Here are the class notes from today's lecture. Let me know if anything is unclear.
+516,ham,Weekly Report,Please find the attached report for this week's progress. Let me know your feedback.
+517,ham,Interview Schedule,Thank you for your payment. Your invoice is attached for your records.
+518,spam,Congratulations!,Exclusive offer! Get 40% off on premium products. Buy now.
+519,ham,Weekly Report,Please find the attached report for this week's progress. Let me know your feedback.
+520,spam,Win Big Today,Your parcel is waiting. Confirm your shipping address to avoid return.
+521,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+522,ham,Invoice Attached,Happy birthday! Hope you have a wonderful day with your family.
+523,ham,Family Get Together,Please find the attached report for this week's progress. Let me know your feedback.
+524,ham,Weekly Report,Your appointment with Dr. Sharma is confirmed for Wednesday.
+525,ham,Vacation Photos,"Hi Meera, just a reminder that our meeting is scheduled for Monday at 2:30 PM."
+526,ham,Family Get Together,Here are the class notes from today's lecture. Let me know if anything is unclear.
+527,spam,Urgent Action Required,Your bank account has been suspended. Confirm your credentials immediately.
+528,spam,Win Big Today,Invest in our crypto platform and double your investment in 7 days.
+529,spam,Exclusive Deal,Your parcel is waiting. Confirm your shipping address to avoid return.
+530,spam,Exclusive Deal,Invest in our crypto platform and double your investment in 7 days.
+531,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+532,spam,Free Gift,Your bank account has been suspended. Confirm your credentials immediately.
+533,spam,Claim Your Prize,Your bank account has been suspended. Confirm your credentials immediately.
+534,spam,Win Big Today,Final reminder: Your subscription expires today. Update your payment details.
+535,spam,Win Big Today,Earn money fast from home with no experience. Register today.
+536,ham,Interview Schedule,"Hi Priya, just a reminder that our meeting is scheduled for Friday at 6:00 PM."
+537,ham,Class Notes,"Hi Meera, just a reminder that our meeting is scheduled for Wednesday at 10:00 AM."
+538,ham,Invoice Attached,Your appointment with Dr. Sharma is confirmed for Friday.
+539,spam,Urgent Action Required,Exclusive offer! Get 70% off on premium products. Buy now.
+540,ham,Family Get Together,Happy birthday! Hope you have a wonderful day with your family.
+541,ham,Vacation Photos,"Hi Aman, just a reminder that our meeting is scheduled for Tuesday at 2:30 PM."
+542,ham,Family Get Together,Your appointment with Dr. Sharma is confirmed for Wednesday.
+543,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+544,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+545,ham,Class Notes,Here are the class notes from today's lecture. Let me know if anything is unclear.
+546,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+547,ham,Project Update,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+548,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+549,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+550,ham,Project Update,Here are the class notes from today's lecture. Let me know if anything is unclear.
+551,ham,Doctor Appointment,Thank you for your payment. Your invoice is attached for your records.
+552,spam,Claim Your Prize,Invest in our crypto platform and double your investment in 7 days.
+553,spam,Limited Time Offer,Your bank account has been suspended. Confirm your credentials immediately.
+554,ham,Lunch Plan,Thank you for your payment. Your invoice is attached for your records.
+555,ham,Invoice Attached,I've shared the project files in the team drive. Please review them before tomorrow.
+556,spam,Win Big Today,Exclusive offer! Get 30% off on premium products. Buy now.
+557,ham,Meeting Reminder,I've shared the project files in the team drive. Please review them before tomorrow.
+558,ham,Lunch Plan,Please find the attached report for this week's progress. Let me know your feedback.
+559,spam,Crypto Opportunity,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+560,ham,Class Notes,Here are the class notes from today's lecture. Let me know if anything is unclear.
+561,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+562,ham,Class Notes,Thank you for your payment. Your invoice is attached for your records.
+563,ham,Doctor Appointment,I've shared the project files in the team drive. Please review them before tomorrow.
+564,spam,Urgent Action Required,Your bank account has been suspended. Confirm your credentials immediately.
+565,spam,Exclusive Deal,Exclusive offer! Get 70% off on premium products. Buy now.
+566,ham,Class Notes,Your appointment with Dr. Sharma is confirmed for Thursday.
+567,ham,Class Notes,Here are the class notes from today's lecture. Let me know if anything is unclear.
+568,ham,Vacation Photos,Your appointment with Dr. Sharma is confirmed for Wednesday.
+569,spam,Exclusive Deal,Earn money fast from home with no experience. Register today.
+570,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+571,ham,Class Notes,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+572,spam,Limited Time Offer,Invest in our crypto platform and double your investment in 7 days.
+573,spam,Crypto Opportunity,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+574,ham,Interview Schedule,I've shared the project files in the team drive. Please review them before tomorrow.
+575,ham,Meeting Reminder,Thank you for your payment. Your invoice is attached for your records.
+576,spam,Lottery Winner,Invest in our crypto platform and double your investment in 7 days.
+577,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Friday.
+578,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+579,spam,Free Gift,Exclusive offer! Get 70% off on premium products. Buy now.
+580,spam,Exclusive Deal,You have been selected to receive a $100 reward. Click the link to verify your account.
+581,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+582,ham,Doctor Appointment,Happy birthday! Hope you have a wonderful day with your family.
+583,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+584,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+585,spam,Limited Time Offer,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+586,spam,Exclusive Deal,Exclusive offer! Get 40% off on premium products. Buy now.
+587,ham,Invoice Attached,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+588,ham,Class Notes,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+589,spam,Urgent Action Required,Exclusive offer! Get 40% off on premium products. Buy now.
+590,spam,Congratulations!,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+591,ham,Lunch Plan,Thank you for your payment. Your invoice is attached for your records.
+592,spam,Lottery Winner,Final reminder: Your subscription expires today. Update your payment details.
+593,ham,Class Notes,Your appointment with Dr. Sharma is confirmed for Tuesday.
+594,ham,Weekly Report,Happy birthday! Hope you have a wonderful day with your family.
+595,ham,Doctor Appointment,Thank you for your payment. Your invoice is attached for your records.
+596,spam,Lottery Winner,You have been selected to receive a $500 reward. Click the link to verify your account.
+597,ham,Interview Schedule,Here are the class notes from today's lecture. Let me know if anything is unclear.
+598,spam,Free Gift,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+599,spam,Free Gift,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+600,spam,Win Big Today,Final reminder: Your subscription expires today. Update your payment details.
+601,spam,Win Big Today,You have been selected to receive a $250 reward. Click the link to verify your account.
+602,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+603,spam,Congratulations!,Your parcel is waiting. Confirm your shipping address to avoid return.
+604,ham,Vacation Photos,"Hi Aman, just a reminder that our meeting is scheduled for Friday at 10:00 AM."
+605,ham,Invoice Attached,"Hi Meera, just a reminder that our meeting is scheduled for Monday at 11:15 AM."
+606,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+607,spam,Free Gift,Final reminder: Your subscription expires today. Update your payment details.
+608,spam,Win Big Today,Your parcel is waiting. Confirm your shipping address to avoid return.
+609,spam,Exclusive Deal,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+610,spam,Claim Your Prize,Your parcel is waiting. Confirm your shipping address to avoid return.
+611,spam,Exclusive Deal,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+612,spam,Win Big Today,Final reminder: Your subscription expires today. Update your payment details.
+613,spam,Limited Time Offer,Your bank account has been suspended. Confirm your credentials immediately.
+614,ham,Project Update,Thank you for your payment. Your invoice is attached for your records.
+615,spam,Account Alert,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+616,spam,Claim Your Prize,Your bank account has been suspended. Confirm your credentials immediately.
+617,ham,Lunch Plan,Happy birthday! Hope you have a wonderful day with your family.
+618,ham,Family Get Together,Here are the class notes from today's lecture. Let me know if anything is unclear.
+619,ham,Meeting Reminder,Can we have lunch tomorrow around 6:00 PM? Let me know if that works.
+620,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+621,spam,Free Gift,You have been selected to receive a $250 reward. Click the link to verify your account.
+622,spam,Exclusive Deal,You have been selected to receive a $10000 reward. Click the link to verify your account.
+623,ham,Class Notes,Happy birthday! Hope you have a wonderful day with your family.
+624,spam,Free Gift,Earn money fast from home with no experience. Register today.
+625,spam,Crypto Opportunity,Exclusive offer! Get 70% off on premium products. Buy now.
+626,spam,Win Big Today,Earn money fast from home with no experience. Register today.
+627,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Friday.
+628,spam,Exclusive Deal,Earn money fast from home with no experience. Register today.
+629,spam,Limited Time Offer,You have been selected to receive a $100 reward. Click the link to verify your account.
+630,spam,Urgent Action Required,Your bank account has been suspended. Confirm your credentials immediately.
+631,ham,Interview Schedule,Happy birthday! Hope you have a wonderful day with your family.
+632,ham,Interview Schedule,Here are the class notes from today's lecture. Let me know if anything is unclear.
+633,ham,Vacation Photos,Happy birthday! Hope you have a wonderful day with your family.
+634,ham,Project Update,Please find the attached report for this week's progress. Let me know your feedback.
+635,spam,Account Alert,Earn money fast from home with no experience. Register today.
+636,spam,Win Big Today,Your bank account has been suspended. Confirm your credentials immediately.
+637,spam,Limited Time Offer,Your bank account has been suspended. Confirm your credentials immediately.
+638,spam,Congratulations!,Earn money fast from home with no experience. Register today.
+639,ham,Meeting Reminder,"Hi Riya, just a reminder that our meeting is scheduled for Tuesday at 2:30 PM."
+640,spam,Account Alert,Invest in our crypto platform and double your investment in 7 days.
+641,ham,Family Get Together,Please find the attached report for this week's progress. Let me know your feedback.
+642,ham,Invoice Attached,I've shared the project files in the team drive. Please review them before tomorrow.
+643,spam,Win Big Today,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+644,spam,Congratulations!,Exclusive offer! Get 50% off on premium products. Buy now.
+645,spam,Free Gift,Invest in our crypto platform and double your investment in 7 days.
+646,ham,Interview Schedule,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+647,spam,Free Gift,Final reminder: Your subscription expires today. Update your payment details.
+648,ham,Meeting Reminder,Please find the attached report for this week's progress. Let me know your feedback.
+649,ham,Project Update,I've shared the project files in the team drive. Please review them before tomorrow.
+650,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+651,spam,Limited Time Offer,Earn money fast from home with no experience. Register today.
+652,spam,Win Big Today,Earn money fast from home with no experience. Register today.
+653,spam,Claim Your Prize,Your parcel is waiting. Confirm your shipping address to avoid return.
+654,spam,Lottery Winner,You have been selected to receive a $100 reward. Click the link to verify your account.
+655,spam,Crypto Opportunity,Invest in our crypto platform and double your investment in 7 days.
+656,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Thursday.
+657,spam,Win Big Today,Your bank account has been suspended. Confirm your credentials immediately.
+658,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+659,ham,Class Notes,Please find the attached report for this week's progress. Let me know your feedback.
+660,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+661,ham,Class Notes,Thank you for your payment. Your invoice is attached for your records.
+662,spam,Crypto Opportunity,Final reminder: Your subscription expires today. Update your payment details.
+663,spam,Crypto Opportunity,Exclusive offer! Get 30% off on premium products. Buy now.
+664,spam,Free Gift,Exclusive offer! Get 60% off on premium products. Buy now.
+665,spam,Urgent Action Required,You have been selected to receive a $5000 reward. Click the link to verify your account.
+666,ham,Doctor Appointment,"Hi Sneha, just a reminder that our meeting is scheduled for Monday at 4:00 PM."
+667,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+668,spam,Free Gift,Final reminder: Your subscription expires today. Update your payment details.
+669,ham,Invoice Attached,I've shared the project files in the team drive. Please review them before tomorrow.
+670,ham,Vacation Photos,Here are the class notes from today's lecture. Let me know if anything is unclear.
+671,spam,Account Alert,Earn money fast from home with no experience. Register today.
+672,spam,Crypto Opportunity,Earn money fast from home with no experience. Register today.
+673,ham,Class Notes,Please find the attached report for this week's progress. Let me know your feedback.
+674,ham,Family Get Together,Can we have lunch tomorrow around 10:00 AM? Let me know if that works.
+675,ham,Project Update,Your appointment with Dr. Sharma is confirmed for Wednesday.
+676,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+677,ham,Vacation Photos,Please find the attached report for this week's progress. Let me know your feedback.
+678,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+679,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+680,ham,Interview Schedule,"Hi Rahul, just a reminder that our meeting is scheduled for Monday at 11:15 AM."
+681,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+682,ham,Class Notes,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+683,ham,Vacation Photos,"Hi Rahul, just a reminder that our meeting is scheduled for Wednesday at 11:15 AM."
+684,spam,Urgent Action Required,Your bank account has been suspended. Confirm your credentials immediately.
+685,ham,Vacation Photos,Your appointment with Dr. Sharma is confirmed for Wednesday.
+686,ham,Class Notes,Happy birthday! Hope you have a wonderful day with your family.
+687,ham,Interview Schedule,"Hi Meera, just a reminder that our meeting is scheduled for Friday at 4:00 PM."
+688,ham,Invoice Attached,Here are the class notes from today's lecture. Let me know if anything is unclear.
+689,spam,Urgent Action Required,Your bank account has been suspended. Confirm your credentials immediately.
+690,ham,Class Notes,"Hi Rahul, just a reminder that our meeting is scheduled for Monday at 10:00 AM."
+691,ham,Class Notes,Can we have lunch tomorrow around 10:00 AM? Let me know if that works.
+692,spam,Congratulations!,Invest in our crypto platform and double your investment in 7 days.
+693,spam,Congratulations!,Final reminder: Your subscription expires today. Update your payment details.
+694,spam,Congratulations!,You have been selected to receive a $1000 reward. Click the link to verify your account.
+695,ham,Interview Schedule,Please find the attached report for this week's progress. Let me know your feedback.
+696,ham,Weekly Report,Your appointment with Dr. Sharma is confirmed for Monday.
+697,spam,Lottery Winner,Invest in our crypto platform and double your investment in 7 days.
+698,spam,Crypto Opportunity,Final reminder: Your subscription expires today. Update your payment details.
+699,spam,Free Gift,Your bank account has been suspended. Confirm your credentials immediately.
+700,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+701,spam,Free Gift,You have been selected to receive a $10000 reward. Click the link to verify your account.
+702,ham,Project Update,Here are the class notes from today's lecture. Let me know if anything is unclear.
+703,spam,Free Gift,Earn money fast from home with no experience. Register today.
+704,ham,Family Get Together,Your appointment with Dr. Sharma is confirmed for Monday.
+705,spam,Congratulations!,You have been selected to receive a $5000 reward. Click the link to verify your account.
+706,ham,Class Notes,Thank you for your payment. Your invoice is attached for your records.
+707,ham,Weekly Report,Thank you for your payment. Your invoice is attached for your records.
+708,ham,Weekly Report,I've shared the project files in the team drive. Please review them before tomorrow.
+709,spam,Win Big Today,Your parcel is waiting. Confirm your shipping address to avoid return.
+710,spam,Limited Time Offer,Invest in our crypto platform and double your investment in 7 days.
+711,ham,Doctor Appointment,Happy birthday! Hope you have a wonderful day with your family.
+712,spam,Claim Your Prize,Final reminder: Your subscription expires today. Update your payment details.
+713,spam,Lottery Winner,Invest in our crypto platform and double your investment in 7 days.
+714,spam,Win Big Today,Final reminder: Your subscription expires today. Update your payment details.
+715,ham,Class Notes,Can we have lunch tomorrow around 4:00 PM? Let me know if that works.
+716,ham,Family Get Together,Thank you for your payment. Your invoice is attached for your records.
+717,ham,Project Update,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+718,ham,Family Get Together,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+719,spam,Urgent Action Required,You have been selected to receive a $250 reward. Click the link to verify your account.
+720,ham,Weekly Report,"Hi Neha, just a reminder that our meeting is scheduled for Tuesday at 10:00 AM."
+721,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+722,spam,Lottery Winner,Your parcel is waiting. Confirm your shipping address to avoid return.
+723,ham,Project Update,Can we have lunch tomorrow around 6:00 PM? Let me know if that works.
+724,spam,Exclusive Deal,Your bank account has been suspended. Confirm your credentials immediately.
+725,ham,Invoice Attached,Your appointment with Dr. Sharma is confirmed for Monday.
+726,ham,Family Get Together,Happy birthday! Hope you have a wonderful day with your family.
+727,spam,Lottery Winner,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+728,spam,Claim Your Prize,Exclusive offer! Get 70% off on premium products. Buy now.
+729,spam,Crypto Opportunity,Your bank account has been suspended. Confirm your credentials immediately.
+730,spam,Exclusive Deal,You have been selected to receive a $1000 reward. Click the link to verify your account.
+731,spam,Limited Time Offer,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+732,spam,Lottery Winner,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+733,spam,Limited Time Offer,Final reminder: Your subscription expires today. Update your payment details.
+734,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+735,ham,Meeting Reminder,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+736,ham,Weekly Report,Can we have lunch tomorrow around 10:00 AM? Let me know if that works.
+737,spam,Urgent Action Required,You have been selected to receive a $500 reward. Click the link to verify your account.
+738,ham,Vacation Photos,Please find the attached report for this week's progress. Let me know your feedback.
+739,ham,Weekly Report,"Hi Ankit, just a reminder that our meeting is scheduled for Wednesday at 10:00 AM."
+740,spam,Claim Your Prize,You have been selected to receive a $10000 reward. Click the link to verify your account.
+741,ham,Class Notes,Thank you for your payment. Your invoice is attached for your records.
+742,ham,Project Update,Your appointment with Dr. Sharma is confirmed for Wednesday.
+743,ham,Project Update,I've shared the project files in the team drive. Please review them before tomorrow.
+744,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+745,spam,Lottery Winner,Earn money fast from home with no experience. Register today.
+746,ham,Meeting Reminder,Your appointment with Dr. Sharma is confirmed for Friday.
+747,ham,Doctor Appointment,Here are the class notes from today's lecture. Let me know if anything is unclear.
+748,spam,Crypto Opportunity,Your bank account has been suspended. Confirm your credentials immediately.
+749,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+750,spam,Urgent Action Required,You have been selected to receive a $250 reward. Click the link to verify your account.
+751,ham,Invoice Attached,Here are the class notes from today's lecture. Let me know if anything is unclear.
+752,spam,Claim Your Prize,Exclusive offer! Get 80% off on premium products. Buy now.
+753,ham,Meeting Reminder,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+754,ham,Family Get Together,Your appointment with Dr. Sharma is confirmed for Friday.
+755,spam,Account Alert,Exclusive offer! Get 50% off on premium products. Buy now.
+756,spam,Exclusive Deal,Your bank account has been suspended. Confirm your credentials immediately.
+757,spam,Free Gift,Your parcel is waiting. Confirm your shipping address to avoid return.
+758,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+759,ham,Vacation Photos,Thank you for your payment. Your invoice is attached for your records.
+760,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+761,ham,Vacation Photos,Your appointment with Dr. Sharma is confirmed for Tuesday.
+762,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+763,spam,Claim Your Prize,Your bank account has been suspended. Confirm your credentials immediately.
+764,spam,Lottery Winner,You have been selected to receive a $1000 reward. Click the link to verify your account.
+765,spam,Win Big Today,Exclusive offer! Get 70% off on premium products. Buy now.
+766,ham,Interview Schedule,Your appointment with Dr. Sharma is confirmed for Wednesday.
+767,ham,Project Update,Please find the attached report for this week's progress. Let me know your feedback.
+768,ham,Doctor Appointment,Your appointment with Dr. Sharma is confirmed for Friday.
+769,ham,Lunch Plan,Happy birthday! Hope you have a wonderful day with your family.
+770,ham,Weekly Report,Your appointment with Dr. Sharma is confirmed for Friday.
+771,spam,Congratulations!,Invest in our crypto platform and double your investment in 7 days.
+772,ham,Lunch Plan,Can we have lunch tomorrow around 10:00 AM? Let me know if that works.
+773,spam,Lottery Winner,You have been selected to receive a $10000 reward. Click the link to verify your account.
+774,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+775,ham,Doctor Appointment,Your appointment with Dr. Sharma is confirmed for Thursday.
+776,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+777,spam,Claim Your Prize,Earn money fast from home with no experience. Register today.
+778,ham,Vacation Photos,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+779,spam,Claim Your Prize,Invest in our crypto platform and double your investment in 7 days.
+780,spam,Lottery Winner,Your parcel is waiting. Confirm your shipping address to avoid return.
+781,ham,Class Notes,"Hi Vikram, just a reminder that our meeting is scheduled for Thursday at 10:00 AM."
+782,spam,Limited Time Offer,Your parcel is waiting. Confirm your shipping address to avoid return.
+783,ham,Meeting Reminder,Your appointment with Dr. Sharma is confirmed for Thursday.
+784,ham,Meeting Reminder,Thank you for your payment. Your invoice is attached for your records.
+785,spam,Lottery Winner,Invest in our crypto platform and double your investment in 7 days.
+786,ham,Doctor Appointment,"Hi Rahul, just a reminder that our meeting is scheduled for Monday at 2:30 PM."
+787,spam,Win Big Today,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+788,ham,Family Get Together,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+789,ham,Interview Schedule,Thank you for your payment. Your invoice is attached for your records.
+790,ham,Lunch Plan,"Hi Riya, just a reminder that our meeting is scheduled for Tuesday at 6:00 PM."
+791,spam,Free Gift,You have been selected to receive a $500 reward. Click the link to verify your account.
+792,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+793,ham,Project Update,Happy birthday! Hope you have a wonderful day with your family.
+794,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+795,ham,Project Update,Thank you for your payment. Your invoice is attached for your records.
+796,spam,Exclusive Deal,Invest in our crypto platform and double your investment in 7 days.
+797,spam,Exclusive Deal,Your parcel is waiting. Confirm your shipping address to avoid return.
+798,spam,Crypto Opportunity,Final reminder: Your subscription expires today. Update your payment details.
+799,ham,Weekly Report,Thank you for your payment. Your invoice is attached for your records.
+800,ham,Invoice Attached,Can we have lunch tomorrow around 10:00 AM? Let me know if that works.
+801,ham,Project Update,Thank you for your payment. Your invoice is attached for your records.
+802,ham,Class Notes,Here are the class notes from today's lecture. Let me know if anything is unclear.
+803,spam,Free Gift,Exclusive offer! Get 60% off on premium products. Buy now.
+804,ham,Vacation Photos,Here are the class notes from today's lecture. Let me know if anything is unclear.
+805,spam,Urgent Action Required,You have been selected to receive a $10000 reward. Click the link to verify your account.
+806,spam,Free Gift,Invest in our crypto platform and double your investment in 7 days.
+807,spam,Free Gift,Earn money fast from home with no experience. Register today.
+808,ham,Class Notes,Your appointment with Dr. Sharma is confirmed for Wednesday.
+809,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+810,spam,Exclusive Deal,Your bank account has been suspended. Confirm your credentials immediately.
+811,spam,Limited Time Offer,You have been selected to receive a $100 reward. Click the link to verify your account.
+812,spam,Limited Time Offer,Earn money fast from home with no experience. Register today.
+813,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+814,ham,Invoice Attached,Here are the class notes from today's lecture. Let me know if anything is unclear.
+815,spam,Exclusive Deal,Final reminder: Your subscription expires today. Update your payment details.
+816,ham,Family Get Together,Here are the class notes from today's lecture. Let me know if anything is unclear.
+817,ham,Doctor Appointment,"Hi Aman, just a reminder that our meeting is scheduled for Friday at 4:00 PM."
+818,spam,Claim Your Prize,Invest in our crypto platform and double your investment in 7 days.
+819,ham,Doctor Appointment,Please find the attached report for this week's progress. Let me know your feedback.
+820,ham,Vacation Photos,Here are the class notes from today's lecture. Let me know if anything is unclear.
+821,ham,Invoice Attached,Can we have lunch tomorrow around 10:00 AM? Let me know if that works.
+822,ham,Invoice Attached,Please find the attached report for this week's progress. Let me know your feedback.
+823,spam,Free Gift,Exclusive offer! Get 70% off on premium products. Buy now.
+824,spam,Urgent Action Required,You have been selected to receive a $100 reward. Click the link to verify your account.
+825,ham,Doctor Appointment,Thank you for your payment. Your invoice is attached for your records.
+826,ham,Vacation Photos,Thank you for your payment. Your invoice is attached for your records.
+827,ham,Meeting Reminder,Thank you for your payment. Your invoice is attached for your records.
+828,spam,Lottery Winner,Final reminder: Your subscription expires today. Update your payment details.
+829,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+830,spam,Claim Your Prize,Final reminder: Your subscription expires today. Update your payment details.
+831,spam,Crypto Opportunity,Your parcel is waiting. Confirm your shipping address to avoid return.
+832,ham,Vacation Photos,Happy birthday! Hope you have a wonderful day with your family.
+833,ham,Meeting Reminder,Your appointment with Dr. Sharma is confirmed for Thursday.
+834,spam,Congratulations!,Exclusive offer! Get 60% off on premium products. Buy now.
+835,spam,Limited Time Offer,Your parcel is waiting. Confirm your shipping address to avoid return.
+836,ham,Meeting Reminder,Can we have lunch tomorrow around 6:00 PM? Let me know if that works.
+837,spam,Urgent Action Required,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+838,spam,Claim Your Prize,Invest in our crypto platform and double your investment in 7 days.
+839,ham,Meeting Reminder,Can we have lunch tomorrow around 4:00 PM? Let me know if that works.
+840,ham,Project Update,Happy birthday! Hope you have a wonderful day with your family.
+841,ham,Vacation Photos,"Hi Aman, just a reminder that our meeting is scheduled for Friday at 11:15 AM."
+842,ham,Family Get Together,Here are the class notes from today's lecture. Let me know if anything is unclear.
+843,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+844,spam,Limited Time Offer,Earn money fast from home with no experience. Register today.
+845,ham,Weekly Report,Please find the attached report for this week's progress. Let me know your feedback.
+846,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+847,spam,Crypto Opportunity,Exclusive offer! Get 80% off on premium products. Buy now.
+848,spam,Congratulations!,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+849,spam,Free Gift,Earn money fast from home with no experience. Register today.
+850,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+851,ham,Weekly Report,Happy birthday! Hope you have a wonderful day with your family.
+852,ham,Weekly Report,I've shared the project files in the team drive. Please review them before tomorrow.
+853,spam,Claim Your Prize,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+854,ham,Family Get Together,Please find the attached report for this week's progress. Let me know your feedback.
+855,spam,Exclusive Deal,Earn money fast from home with no experience. Register today.
+856,spam,Account Alert,Invest in our crypto platform and double your investment in 7 days.
+857,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+858,ham,Weekly Report,Please find the attached report for this week's progress. Let me know your feedback.
+859,spam,Exclusive Deal,You have been selected to receive a $10000 reward. Click the link to verify your account.
+860,ham,Meeting Reminder,Your appointment with Dr. Sharma is confirmed for Tuesday.
+861,ham,Vacation Photos,Your appointment with Dr. Sharma is confirmed for Thursday.
+862,spam,Congratulations!,Your bank account has been suspended. Confirm your credentials immediately.
+863,ham,Lunch Plan,Please find the attached report for this week's progress. Let me know your feedback.
+864,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+865,ham,Vacation Photos,Please find the attached report for this week's progress. Let me know your feedback.
+866,spam,Congratulations!,Final reminder: Your subscription expires today. Update your payment details.
+867,spam,Congratulations!,Earn money fast from home with no experience. Register today.
+868,ham,Interview Schedule,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+869,spam,Lottery Winner,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+870,ham,Class Notes,Here are the class notes from today's lecture. Let me know if anything is unclear.
+871,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+872,ham,Invoice Attached,Please find the attached report for this week's progress. Let me know your feedback.
+873,ham,Family Get Together,Thank you for your payment. Your invoice is attached for your records.
+874,spam,Win Big Today,Final reminder: Your subscription expires today. Update your payment details.
+875,ham,Family Get Together,I've shared the project files in the team drive. Please review them before tomorrow.
+876,spam,Lottery Winner,Your bank account has been suspended. Confirm your credentials immediately.
+877,spam,Claim Your Prize,Your bank account has been suspended. Confirm your credentials immediately.
+878,ham,Meeting Reminder,Here are the class notes from today's lecture. Let me know if anything is unclear.
+879,ham,Lunch Plan,Your appointment with Dr. Sharma is confirmed for Thursday.
+880,spam,Congratulations!,Your bank account has been suspended. Confirm your credentials immediately.
+881,ham,Family Get Together,Your appointment with Dr. Sharma is confirmed for Tuesday.
+882,ham,Family Get Together,"Hi Riya, just a reminder that our meeting is scheduled for Tuesday at 2:30 PM."
+883,spam,Free Gift,Earn money fast from home with no experience. Register today.
+884,spam,Exclusive Deal,Exclusive offer! Get 30% off on premium products. Buy now.
+885,ham,Weekly Report,Here are the class notes from today's lecture. Let me know if anything is unclear.
+886,spam,Limited Time Offer,You have been selected to receive a $250 reward. Click the link to verify your account.
+887,spam,Free Gift,Your bank account has been suspended. Confirm your credentials immediately.
+888,spam,Account Alert,Your bank account has been suspended. Confirm your credentials immediately.
+889,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+890,spam,Claim Your Prize,You have been selected to receive a $1000 reward. Click the link to verify your account.
+891,spam,Crypto Opportunity,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+892,spam,Free Gift,Earn money fast from home with no experience. Register today.
+893,ham,Lunch Plan,Your appointment with Dr. Sharma is confirmed for Monday.
+894,spam,Account Alert,Final reminder: Your subscription expires today. Update your payment details.
+895,ham,Class Notes,"Hi Riya, just a reminder that our meeting is scheduled for Tuesday at 10:00 AM."
+896,spam,Congratulations!,Your bank account has been suspended. Confirm your credentials immediately.
+897,ham,Vacation Photos,Your appointment with Dr. Sharma is confirmed for Friday.
+898,ham,Invoice Attached,Thank you for your payment. Your invoice is attached for your records.
+899,ham,Doctor Appointment,"Hi Vikram, just a reminder that our meeting is scheduled for Friday at 4:00 PM."
+900,ham,Meeting Reminder,I've shared the project files in the team drive. Please review them before tomorrow.
+901,ham,Doctor Appointment,Here are the class notes from today's lecture. Let me know if anything is unclear.
+902,spam,Urgent Action Required,Your bank account has been suspended. Confirm your credentials immediately.
+903,ham,Project Update,Can we have lunch tomorrow around 2:30 PM? Let me know if that works.
+904,ham,Doctor Appointment,Thank you for your payment. Your invoice is attached for your records.
+905,ham,Class Notes,Thank you for your payment. Your invoice is attached for your records.
+906,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+907,ham,Family Get Together,"Hi Vikram, just a reminder that our meeting is scheduled for Wednesday at 2:30 PM."
+908,spam,Lottery Winner,Exclusive offer! Get 80% off on premium products. Buy now.
+909,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+910,ham,Class Notes,"Hi Riya, just a reminder that our meeting is scheduled for Friday at 6:00 PM."
+911,spam,Congratulations!,Earn money fast from home with no experience. Register today.
+912,ham,Vacation Photos,Thank you for your payment. Your invoice is attached for your records.
+913,spam,Claim Your Prize,Your bank account has been suspended. Confirm your credentials immediately.
+914,ham,Meeting Reminder,Happy birthday! Hope you have a wonderful day with your family.
+915,ham,Meeting Reminder,Please find the attached report for this week's progress. Let me know your feedback.
+916,ham,Project Update,Thank you for your payment. Your invoice is attached for your records.
+917,ham,Weekly Report,Happy birthday! Hope you have a wonderful day with your family.
+918,ham,Invoice Attached,Please find the attached report for this week's progress. Let me know your feedback.
+919,ham,Family Get Together,Can we have lunch tomorrow around 6:00 PM? Let me know if that works.
+920,spam,Lottery Winner,Exclusive offer! Get 60% off on premium products. Buy now.
+921,ham,Lunch Plan,I've shared the project files in the team drive. Please review them before tomorrow.
+922,ham,Meeting Reminder,Please find the attached report for this week's progress. Let me know your feedback.
+923,ham,Interview Schedule,I've shared the project files in the team drive. Please review them before tomorrow.
+924,spam,Limited Time Offer,You have been selected to receive a $250 reward. Click the link to verify your account.
+925,spam,Win Big Today,Your bank account has been suspended. Confirm your credentials immediately.
+926,ham,Lunch Plan,Happy birthday! Hope you have a wonderful day with your family.
+927,spam,Free Gift,Your parcel is waiting. Confirm your shipping address to avoid return.
+928,spam,Crypto Opportunity,Invest in our crypto platform and double your investment in 7 days.
+929,ham,Class Notes,I've shared the project files in the team drive. Please review them before tomorrow.
+930,spam,Win Big Today,Exclusive offer! Get 60% off on premium products. Buy now.
+931,spam,Account Alert,Earn money fast from home with no experience. Register today.
+932,spam,Limited Time Offer,Invest in our crypto platform and double your investment in 7 days.
+933,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+934,spam,Win Big Today,Exclusive offer! Get 30% off on premium products. Buy now.
+935,spam,Account Alert,Earn money fast from home with no experience. Register today.
+936,ham,Interview Schedule,Please find the attached report for this week's progress. Let me know your feedback.
+937,ham,Invoice Attached,I've shared the project files in the team drive. Please review them before tomorrow.
+938,spam,Exclusive Deal,Your bank account has been suspended. Confirm your credentials immediately.
+939,ham,Vacation Photos,Please find the attached report for this week's progress. Let me know your feedback.
+940,spam,Congratulations!,Your bank account has been suspended. Confirm your credentials immediately.
+941,spam,Congratulations!,Invest in our crypto platform and double your investment in 7 days.
+942,ham,Class Notes,Thank you for your payment. Your invoice is attached for your records.
+943,spam,Win Big Today,Earn money fast from home with no experience. Register today.
+944,spam,Congratulations!,Your bank account has been suspended. Confirm your credentials immediately.
+945,spam,Account Alert,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+946,ham,Project Update,"Hi Aman, just a reminder that our meeting is scheduled for Thursday at 10:00 AM."
+947,ham,Weekly Report,Your appointment with Dr. Sharma is confirmed for Tuesday.
+948,spam,Limited Time Offer,Final reminder: Your subscription expires today. Update your payment details.
+949,ham,Doctor Appointment,Please find the attached report for this week's progress. Let me know your feedback.
+950,spam,Urgent Action Required,Your parcel is waiting. Confirm your shipping address to avoid return.
+951,spam,Free Gift,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+952,spam,Congratulations!,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+953,ham,Lunch Plan,Here are the class notes from today's lecture. Let me know if anything is unclear.
+954,ham,Doctor Appointment,Your appointment with Dr. Sharma is confirmed for Thursday.
+955,ham,Meeting Reminder,Please find the attached report for this week's progress. Let me know your feedback.
+956,spam,Free Gift,Invest in our crypto platform and double your investment in 7 days.
+957,spam,Exclusive Deal,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+958,ham,Doctor Appointment,Please find the attached report for this week's progress. Let me know your feedback.
+959,spam,Claim Your Prize,Final reminder: Your subscription expires today. Update your payment details.
+960,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+961,ham,Doctor Appointment,I've shared the project files in the team drive. Please review them before tomorrow.
+962,ham,Family Get Together,Please find the attached report for this week's progress. Let me know your feedback.
+963,ham,Meeting Reminder,Here are the class notes from today's lecture. Let me know if anything is unclear.
+964,spam,Limited Time Offer,Your bank account has been suspended. Confirm your credentials immediately.
+965,spam,Account Alert,Congratulations! You won a brand new smartphone. Pay a small processing fee.
+966,spam,Exclusive Deal,Invest in our crypto platform and double your investment in 7 days.
+967,spam,Limited Time Offer,Invest in our crypto platform and double your investment in 7 days.
+968,ham,Doctor Appointment,I've shared the project files in the team drive. Please review them before tomorrow.
+969,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+970,spam,Urgent Action Required,Invest in our crypto platform and double your investment in 7 days.
+971,spam,Lottery Winner,Final reminder: Your subscription expires today. Update your payment details.
+972,spam,Crypto Opportunity,Your parcel is waiting. Confirm your shipping address to avoid return.
+973,ham,Project Update,I've shared the project files in the team drive. Please review them before tomorrow.
+974,ham,Lunch Plan,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+975,spam,Claim Your Prize,You have been selected to receive a $500 reward. Click the link to verify your account.
+976,spam,Limited Time Offer,Exclusive offer! Get 60% off on premium products. Buy now.
+977,ham,Invoice Attached,Happy birthday! Hope you have a wonderful day with your family.
+978,ham,Interview Schedule,Here are the class notes from today's lecture. Let me know if anything is unclear.
+979,ham,Meeting Reminder,Happy birthday! Hope you have a wonderful day with your family.
+980,spam,Claim Your Prize,Your bank account has been suspended. Confirm your credentials immediately.
+981,spam,Limited Time Offer,Invest in our crypto platform and double your investment in 7 days.
+982,spam,Limited Time Offer,Your parcel is waiting. Confirm your shipping address to avoid return.
+983,ham,Doctor Appointment,Your appointment with Dr. Sharma is confirmed for Wednesday.
+984,ham,Meeting Reminder,I've shared the project files in the team drive. Please review them before tomorrow.
+985,spam,Lottery Winner,Final reminder: Your subscription expires today. Update your payment details.
+986,spam,Exclusive Deal,You have been selected to receive a $500 reward. Click the link to verify your account.
+987,ham,Class Notes,Can we have lunch tomorrow around 11:15 AM? Let me know if that works.
+988,spam,Congratulations!,Invest in our crypto platform and double your investment in 7 days.
+989,ham,Vacation Photos,Thank you for your payment. Your invoice is attached for your records.
+990,spam,Lottery Winner,Earn money fast from home with no experience. Register today.
+991,spam,Congratulations!,Earn money fast from home with no experience. Register today.
+992,spam,Lottery Winner,You have been selected to receive a $100 reward. Click the link to verify your account.
+993,spam,Exclusive Deal,Final reminder: Your subscription expires today. Update your payment details.
+994,spam,Account Alert,Your parcel is waiting. Confirm your shipping address to avoid return.
+995,ham,Interview Schedule,Happy birthday! Hope you have a wonderful day with your family.
+996,ham,Meeting Reminder,Happy birthday! Hope you have a wonderful day with your family.
+997,ham,Lunch Plan,"Hi Priya, just a reminder that our meeting is scheduled for Friday at 11:15 AM."
+998,spam,Congratulations!,Your parcel is waiting. Confirm your shipping address to avoid return.
+999,ham,Project Update,Happy birthday! Hope you have a wonderful day with your family.
+1000,ham,Doctor Appointment,Please find the attached report for this week's progress. Let me know your feedback.

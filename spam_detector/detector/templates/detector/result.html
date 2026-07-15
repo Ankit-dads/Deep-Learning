@@ -1,0 +1,95 @@
+{% extends 'detector/base.html' %}
+{% block title %}Result – SpamShield AI{% endblock %}
+{% block meta_description %}Spam detection result for your email text.{% endblock %}
+
+{% block content %}
+<div class="result-container">
+
+  <!-- Result Hero -->
+  <div class="result-hero {% if result.label == 'spam' %}result-spam{% else %}result-ham{% endif %}">
+    <div class="result-icon-wrap">
+      <div class="result-icon {% if result.label == 'spam' %}icon-spam{% else %}icon-ham{% endif %}">
+        {% if result.label == 'spam' %}🚫{% else %}✅{% endif %}
+      </div>
+    </div>
+    <h1 class="result-verdict">
+      {% if result.label == 'spam' %}Spam Detected!{% else %}Looks Safe!{% endif %}
+    </h1>
+    <p class="result-sublabel">
+      {% if result.label == 'spam' %}This message exhibits spam characteristics.{% else %}This message appears to be legitimate.{% endif %}
+    </p>
+
+    <!-- Confidence Gauge -->
+    <div class="confidence-gauge">
+      <div class="gauge-track">
+        <div class="gauge-fill {% if result.label == 'spam' %}gauge-spam{% else %}gauge-ham{% endif %}"
+             style="width: {{ result.confidence }}%"
+             role="progressbar"
+             aria-valuenow="{{ result.confidence }}"
+             aria-valuemin="0"
+             aria-valuemax="100">
+        </div>
+      </div>
+      <div class="gauge-label">
+        <strong>{{ result.confidence }}%</strong> Confidence
+      </div>
+    </div>
+  </div>
+
+  <!-- Probability Cards -->
+  <div class="prob-grid">
+    <div class="prob-card prob-spam {% if result.label == 'spam' %}prob-active{% endif %}">
+      <div class="prob-icon">🚫</div>
+      <div class="prob-value">{{ result.spam_prob }}%</div>
+      <div class="prob-label">Spam Probability</div>
+      <div class="prob-bar-track">
+        <div class="prob-bar prob-bar-red" style="width: {{ result.spam_prob }}%"></div>
+      </div>
+    </div>
+    <div class="prob-card prob-ham {% if result.label == 'ham' %}prob-active{% endif %}">
+      <div class="prob-icon">✅</div>
+      <div class="prob-value">{{ result.ham_prob }}%</div>
+      <div class="prob-label">Ham Probability</div>
+      <div class="prob-bar-track">
+        <div class="prob-bar prob-bar-green" style="width: {{ result.ham_prob }}%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Keywords -->
+  {% if result.top_keywords %}
+  <div class="glass-card keywords-card">
+    <h2 class="card-section-title">🔑 Top Triggering Keywords</h2>
+    <p class="keywords-desc">These words had the highest TF-IDF weight in your message:</p>
+    <div class="keywords-wrap">
+      {% for kw in result.top_keywords %}
+        <span class="keyword-tag {% if result.label == 'spam' %}kw-spam{% else %}kw-ham{% endif %}">{{ kw }}</span>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Original Text -->
+  <div class="glass-card text-card">
+    <div class="text-card-header">
+      <h2 class="card-section-title">📝 Analyzed Text</h2>
+      <button class="copy-btn" onclick="copyText('analyzed-text-content')">📋 Copy</button>
+    </div>
+    <div class="analyzed-text" id="analyzed-text-content">{{ text }}</div>
+  </div>
+
+  <!-- Action Buttons -->
+  <div class="result-actions">
+    <a href="{% url 'index' %}" class="btn-primary">
+      🔍 Analyze Another
+    </a>
+    <a href="{% url 'history' %}" class="btn-secondary">
+      🕒 View History
+    </a>
+    <a href="{% url 'stats' %}" class="btn-secondary">
+      📊 View Stats
+    </a>
+  </div>
+
+</div>
+{% endblock %}

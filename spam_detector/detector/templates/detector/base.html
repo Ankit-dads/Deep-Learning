@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}SpamShield AI{% endblock %}</title>
+  <meta name="description" content="{% block meta_description %}AI-powered email spam detection using Naive Bayes and TF-IDF.{% endblock %}">
+  {% load static %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'detector/css/style.css' %}">
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+
+  <!-- Animated background blobs -->
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="{% url 'index' %}" class="nav-brand" aria-label="SpamShield Home">
+        <span class="brand-icon">🛡️</span>
+        <span class="brand-name">SpamShield<span class="brand-ai">AI</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="{% url 'index' %}" class="nav-link {% if request.resolver_match.url_name == 'index' %}active{% endif %}">
+          <span class="nav-icon">🔍</span> Detect
+        </a>
+        <a href="{% url 'history' %}" class="nav-link {% if request.resolver_match.url_name == 'history' %}active{% endif %}">
+          <span class="nav-icon">🕒</span> History
+        </a>
+        <a href="{% url 'stats' %}" class="nav-link {% if request.resolver_match.url_name == 'stats' %}active{% endif %}">
+          <span class="nav-icon">📊</span> Stats
+        </a>
+        <a href="/admin/" class="nav-link nav-admin" target="_blank" rel="noopener">
+          <span class="nav-icon">⚙️</span> Admin
+        </a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content" id="main-content">
+    {% if messages %}
+      <div class="messages-container">
+        {% for message in messages %}
+          <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="brand-icon">🛡️</span> SpamShield AI
+      </div>
+      <p class="footer-desc">Powered by Naive Bayes &amp; TF-IDF · Built with Django</p>
+      <div class="footer-links">
+        <a href="{% url 'export_csv' %}" class="footer-link">📥 Export CSV</a>
+        <a href="/api/predict/" class="footer-link" title="REST API">🔌 API</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{% static 'detector/js/main.js' %}"></script>
+  {% block extra_js %}{% endblock %}
+</body>
+</html>

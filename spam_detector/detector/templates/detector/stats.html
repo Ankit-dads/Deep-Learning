@@ -1,0 +1,187 @@
+{% extends 'detector/base.html' %}
+{% block title %}Statistics – SpamShield AI{% endblock %}
+{% block meta_description %}Spam detection statistics and trend charts.{% endblock %}
+
+{% block extra_head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<div class="stats-container">
+
+  <div class="page-header">
+    <div>
+      <h1 class="page-title">📊 Detection Statistics</h1>
+      <p class="page-subtitle">Analytics from {{ total }} total predictions</p>
+    </div>
+    <a href="{% url 'export_csv' %}" class="btn-secondary">📥 Export Data</a>
+  </div>
+
+  {% if total > 0 %}
+
+  <!-- KPI Cards -->
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-icon">📬</div>
+      <div class="kpi-value">{{ total }}</div>
+      <div class="kpi-label">Total Predictions</div>
+    </div>
+    <div class="kpi-card kpi-spam">
+      <div class="kpi-icon">🚫</div>
+      <div class="kpi-value">{{ spam_count }}</div>
+      <div class="kpi-label">Spam Detected</div>
+      <div class="kpi-pct">{{ spam_pct }}%</div>
+    </div>
+    <div class="kpi-card kpi-ham">
+      <div class="kpi-icon">✅</div>
+      <div class="kpi-value">{{ ham_count }}</div>
+      <div class="kpi-label">Ham Verified</div>
+      <div class="kpi-pct">{{ ham_pct }}%</div>
+    </div>
+    <div class="kpi-card kpi-conf">
+      <div class="kpi-icon">🎯</div>
+      <div class="kpi-value">{{ avg_confidence }}%</div>
+      <div class="kpi-label">Avg Confidence</div>
+    </div>
+  </div>
+
+  <!-- Confidence breakdown -->
+  <div class="conf-breakdown glass-card">
+    <h2 class="card-section-title">🎯 Confidence Breakdown</h2>
+    <div class="conf-breakdown-grid">
+      <div class="conf-item">
+        <span class="conf-icon">🚫</span>
+        <span class="conf-label-text">Avg Spam Confidence</span>
+        <span class="conf-val conf-spam-val">{{ avg_spam_conf }}%</span>
+        <div class="conf-bar-track"><div class="conf-bar conf-bar-spam" style="width:{{ avg_spam_conf }}%"></div></div>
+      </div>
+      <div class="conf-item">
+        <span class="conf-icon">✅</span>
+        <span class="conf-label-text">Avg Ham Confidence</span>
+        <span class="conf-val conf-ham-val">{{ avg_ham_conf }}%</span>
+        <div class="conf-bar-track"><div class="conf-bar conf-bar-ham" style="width:{{ avg_ham_conf }}%"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Charts Row -->
+  <div class="charts-row">
+    <!-- Donut Chart -->
+    <div class="glass-card chart-card">
+      <h2 class="card-section-title">🍩 Spam vs Ham Distribution</h2>
+      <div class="chart-wrapper">
+        <canvas id="donutChart" role="img" aria-label="Spam vs Ham donut chart"></canvas>
+      </div>
+      <div class="chart-legend">
+        <span class="legend-dot legend-spam"></span> Spam {{ spam_pct }}%
+        &nbsp;&nbsp;
+        <span class="legend-dot legend-ham"></span> Ham {{ ham_pct }}%
+      </div>
+    </div>
+
+    <!-- Bar Chart: Last 7 days -->
+    <div class="glass-card chart-card">
+      <h2 class="card-section-title">📈 Last 7 Days Activity</h2>
+      <div class="chart-wrapper">
+        <canvas id="barChart" role="img" aria-label="Daily spam and ham bar chart for last 7 days"></canvas>
+      </div>
+    </div>
+  </div>
+
+  {% else %}
+  <div class="empty-state glass-card">
+    <div class="empty-icon">📊</div>
+    <h2 class="empty-title">No data yet</h2>
+    <p class="empty-desc">Analyze some emails to see statistics here.</p>
+    <a href="{% url 'index' %}" class="btn-primary">🔍 Detect Spam</a>
+  </div>
+  {% endif %}
+
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+  const sevenDays = {{ seven_days_json|safe }};
+
+  // Donut Chart
+  const donutCtx = document.getElementById('donutChart');
+  if (donutCtx) {
+    new Chart(donutCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Spam', 'Ham'],
+        datasets: [{
+          data: [{{ spam_count }}, {{ ham_count }}],
+          backgroundColor: ['rgba(239,68,68,0.85)', 'rgba(34,197,94,0.85)'],
+          borderColor: ['rgba(239,68,68,1)', 'rgba(34,197,94,1)'],
+          borderWidth: 2,
+          hoverOffset: 12,
+        }]
+      },
+      options: {
+        responsive: true,
+        cutout: '68%',
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: ctx => ` ${ctx.label}: ${ctx.parsed} (${((ctx.parsed/({{ spam_count }}+{{ ham_count }}))*100).toFixed(1)}%)`
+            }
+          }
+        }
+      }
+    });
+  }
+
+  // Bar Chart
+  const barCtx = document.getElementById('barChart');
+  if (barCtx) {
+    new Chart(barCtx, {
+      type: 'bar',
+      data: {
+        labels: sevenDays.map(d => d.date),
+        datasets: [
+          {
+            label: 'Spam',
+            data: sevenDays.map(d => d.spam),
+            backgroundColor: 'rgba(239,68,68,0.75)',
+            borderColor: 'rgba(239,68,68,1)',
+            borderWidth: 1,
+            borderRadius: 6,
+          },
+          {
+            label: 'Ham',
+            data: sevenDays.map(d => d.ham),
+            backgroundColor: 'rgba(34,197,94,0.75)',
+            borderColor: 'rgba(34,197,94,1)',
+            borderWidth: 1,
+            borderRadius: 6,
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          x: {
+            ticks: { color: '#94a3b8' },
+            grid: { color: 'rgba(255,255,255,0.05)' },
+            stacked: true,
+          },
+          y: {
+            ticks: { color: '#94a3b8', stepSize: 1 },
+            grid: { color: 'rgba(255,255,255,0.05)' },
+            stacked: true,
+            beginAtZero: true,
+          }
+        },
+        plugins: {
+          legend: {
+            labels: { color: '#e2e8f0' }
+          }
+        }
+      }
+    });
+  }
+</script>
+{% endblock %}

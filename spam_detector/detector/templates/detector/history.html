@@ -1,0 +1,86 @@
+{% extends 'detector/base.html' %}
+{% block title %}History – SpamShield AI{% endblock %}
+{% block meta_description %}View your spam detection history and filter by label.{% endblock %}
+
+{% block content %}
+<div class="history-container">
+
+  <div class="page-header">
+    <div>
+      <h1 class="page-title">🕒 Prediction History</h1>
+      <p class="page-subtitle">{{ total }} total predictions — {{ spam_count }} spam, {{ ham_count }} ham</p>
+    </div>
+    <div class="header-actions">
+      <a href="{% url 'export_csv' %}" class="btn-secondary btn-sm">📥 Export CSV</a>
+      <form method="POST" action="{% url 'clear_history' %}" style="display:inline;" onsubmit="return confirm('Clear ALL history?')">
+        {% csrf_token %}
+        <button type="submit" class="btn-danger btn-sm">🗑️ Clear All</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filter-bar glass-card">
+    <form method="GET" action="{% url 'history' %}" class="filter-form">
+      <div class="filter-group">
+        <label for="q" class="filter-label">Search</label>
+        <input type="text" id="q" name="q" class="filter-input" placeholder="Search emails..." value="{{ search_query }}">
+      </div>
+      <div class="filter-group">
+        <label for="label" class="filter-label">Label</label>
+        <select id="label" name="label" class="filter-select">
+          <option value="" {% if not label_filter %}selected{% endif %}>All</option>
+          <option value="spam" {% if label_filter == 'spam' %}selected{% endif %}>🚫 Spam</option>
+          <option value="ham" {% if label_filter == 'ham' %}selected{% endif %}>✅ Ham</option>
+        </select>
+      </div>
+      <button type="submit" class="btn-primary btn-sm">Filter</button>
+      <a href="{% url 'history' %}" class="btn-ghost btn-sm">Reset</a>
+    </form>
+  </div>
+
+  <!-- History Items -->
+  {% if predictions %}
+    <div class="history-list">
+      {% for p in predictions %}
+      <div class="history-item {% if p.is_spam %}history-spam{% else %}history-ham{% endif %}">
+        <div class="history-item-left">
+          <span class="label-badge {% if p.is_spam %}badge-spam{% else %}badge-ham{% endif %}">
+            {% if p.is_spam %}🚫 SPAM{% else %}✅ HAM{% endif %}
+          </span>
+          <div class="history-text">{{ p.input_text|truncatechars:100 }}</div>
+          <div class="history-keywords">
+            {% for kw in p.top_keywords|slice:":5" %}
+              <span class="kw-mini">{{ kw }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="history-item-right">
+          <div class="history-confidence">
+            <div class="conf-value {% if p.is_spam %}conf-spam{% else %}conf-ham{% endif %}">{{ p.confidence }}%</div>
+            <div class="conf-label">confidence</div>
+          </div>
+          <div class="history-probs">
+            <span class="spam-prob-mini">S: {{ p.spam_prob }}%</span>
+            <span class="ham-prob-mini">H: {{ p.ham_prob }}%</span>
+          </div>
+          <div class="history-date">{{ p.created_at|date:"M d, Y H:i" }}</div>
+          <form method="POST" action="{% url 'delete_prediction' p.pk %}" style="display:inline;">
+            {% csrf_token %}
+            <button type="submit" class="btn-icon-sm delete-btn" title="Delete" aria-label="Delete prediction {{ p.pk }}">🗑️</button>
+          </form>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="empty-state glass-card">
+      <div class="empty-icon">📭</div>
+      <h2 class="empty-title">No predictions yet</h2>
+      <p class="empty-desc">Start by analyzing an email on the home page.</p>
+      <a href="{% url 'index' %}" class="btn-primary">🔍 Detect Spam</a>
+    </div>
+  {% endif %}
+
+</div>
+{% endblock %}

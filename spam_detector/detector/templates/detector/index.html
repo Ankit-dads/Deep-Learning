@@ -1,0 +1,161 @@
+{% extends 'detector/base.html' %}
+{% block title %}SpamShield AI – Detect Spam{% endblock %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">🤖 Naive Bayes + TF-IDF Model</div>
+    <h1 class="hero-title">Is It <span class="gradient-text">Spam</span> or <span class="gradient-text-green">Ham</span>?</h1>
+    <p class="hero-subtitle">Paste any email text below and our AI will detect spam in milliseconds with confidence scores and keyword analysis.</p>
+
+    <!-- Live Stats Strip -->
+    <div class="stats-strip">
+      <div class="stat-pill">
+        <span class="stat-num">{{ total }}</span>
+        <span class="stat-label">Total Scans</span>
+      </div>
+      <div class="stat-pill stat-spam">
+        <span class="stat-num">{{ spam_count }}</span>
+        <span class="stat-label">Spam Caught</span>
+      </div>
+      <div class="stat-pill stat-ham">
+        <span class="stat-num">{{ ham_count }}</span>
+        <span class="stat-label">Ham Verified</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tabs -->
+<div class="detect-container">
+  <div class="tab-bar" role="tablist">
+    <button class="tab-btn active" id="tab-single" role="tab" aria-selected="true" aria-controls="panel-single" onclick="switchTab('single')">
+      <span>✉️</span> Single Email
+    </button>
+    <button class="tab-btn" id="tab-bulk" role="tab" aria-selected="false" aria-controls="panel-bulk" onclick="switchTab('bulk')">
+      <span>📨</span> Bulk Detect
+    </button>
+  </div>
+
+  <!-- Single Email Panel -->
+  <div class="tab-panel active" id="panel-single" role="tabpanel" aria-labelledby="tab-single">
+    <div class="glass-card">
+      {% if error %}
+        <div class="alert alert-error">⚠️ {{ error }}</div>
+      {% endif %}
+      <form method="POST" action="{% url 'predict' %}" id="singleForm">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="email_text" class="form-label">Email Content</label>
+          <div class="textarea-wrapper">
+            <textarea
+              id="email_text"
+              name="email_text"
+              class="form-textarea"
+              placeholder="Paste your email content here…&#10;&#10;Example: 'Congratulations! You have been selected to receive a FREE gift card worth $500. Click now to claim!'"
+              rows="8"
+              maxlength="5000"
+              required
+              aria-describedby="char-counter"
+            ></textarea>
+            <div class="textarea-footer">
+              <span class="char-counter" id="char-counter">0 / 5000 characters</span>
+              <button type="button" class="btn-ghost" id="clearBtn" onclick="clearForm('email_text')">Clear</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Example buttons -->
+        <div class="example-btns">
+          <span class="example-label">Try an example:</span>
+          <button type="button" class="example-btn spam-ex" onclick="fillExample('spam')">🚫 Spam Example</button>
+          <button type="button" class="example-btn ham-ex" onclick="fillExample('ham')">✅ Ham Example</button>
+        </div>
+
+        <button type="submit" class="btn-primary btn-lg" id="submitBtn">
+          <span class="btn-icon">🔍</span>
+          <span class="btn-text">Analyze Email</span>
+          <span class="btn-loader" hidden>⏳</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bulk Detect Panel -->
+  <div class="tab-panel" id="panel-bulk" role="tabpanel" aria-labelledby="tab-bulk">
+    <div class="glass-card">
+      <p class="panel-hint">Enter one email per line. Each line will be analyzed separately.</p>
+      <form method="POST" action="{% url 'bulk_predict' %}" id="bulkForm">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="emails_bulk" class="form-label">Email Lines (one per line)</label>
+          <textarea
+            id="emails_bulk"
+            name="emails_bulk"
+            class="form-textarea"
+            placeholder="Win a free iPhone now!&#10;Meeting at 10 AM tomorrow&#10;Congratulations you won $10000!&#10;Can you review my pull request?"
+            rows="10"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-lg">
+          <span class="btn-icon">📨</span> Analyze All Emails
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Recent Predictions -->
+{% if recent %}
+<section class="recent-section">
+  <h2 class="section-title">🕒 Recent Detections</h2>
+  <div class="recent-grid">
+    {% for p in recent %}
+    <div class="recent-card {% if p.is_spam %}spam-card{% else %}ham-card{% endif %}">
+      <div class="recent-card-header">
+        <span class="label-badge {% if p.is_spam %}badge-spam{% else %}badge-ham{% endif %}">
+          {% if p.is_spam %}🚫 SPAM{% else %}✅ HAM{% endif %}
+        </span>
+        <span class="confidence-pct">{{ p.confidence }}%</span>
+      </div>
+      <p class="recent-text">{{ p.input_text|truncatechars:80 }}</p>
+      <div class="recent-meta">{{ p.created_at|date:"M d, H:i" }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="view-all-wrap">
+    <a href="{% url 'history' %}" class="btn-secondary">View All History →</a>
+  </div>
+</section>
+{% endif %}
+
+<!-- API Reference Card -->
+<section class="api-section">
+  <div class="glass-card api-card">
+    <h2 class="api-title">🔌 REST API</h2>
+    <p class="api-desc">Integrate SpamShield into your own app with our JSON API.</p>
+    <div class="code-block">
+      <div class="code-header">
+        <span class="code-lang">POST /api/predict/</span>
+        <button class="copy-btn" onclick="copyCode(this)" data-code='curl -X POST http://127.0.0.1:8000/api/predict/ -H "Content-Type: application/json" -d "{\"text\": \"Win a free iPhone!\"}"'>Copy</button>
+      </div>
+      <pre class="code-pre"><code>curl -X POST http://127.0.0.1:8000/api/predict/ \
+  -H "Content-Type: application/json" \
+  -d '{"text": "Win a free iPhone!"}'
+
+<span class="code-comment">// Response:</span>
+{
+  "label": "spam",
+  "confidence": 97.3,
+  "spam_probability": 97.3,
+  "ham_probability": 2.7,
+  "top_keywords": ["free", "win", "iphone"]
+}</code></pre>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

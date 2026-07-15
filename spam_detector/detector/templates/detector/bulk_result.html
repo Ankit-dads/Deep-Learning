@@ -1,0 +1,83 @@
+{% extends 'detector/base.html' %}
+{% block title %}Bulk Results – SpamShield AI{% endblock %}
+
+{% block content %}
+<div class="bulk-container">
+
+  <div class="bulk-header">
+    <h1 class="page-title">📨 Bulk Detection Results</h1>
+    <p class="page-subtitle">Analyzed {{ total }} email{{ total|pluralize }}</p>
+  </div>
+
+  <!-- Summary -->
+  <div class="bulk-summary">
+    <div class="summary-card summary-total">
+      <span class="summary-num">{{ total }}</span>
+      <span class="summary-label">Total</span>
+    </div>
+    <div class="summary-card summary-spam">
+      <span class="summary-num">{{ spam_count }}</span>
+      <span class="summary-label">🚫 Spam</span>
+    </div>
+    <div class="summary-card summary-ham">
+      <span class="summary-num">{{ ham_count }}</span>
+      <span class="summary-label">✅ Ham</span>
+    </div>
+    {% if total > 0 %}
+    <div class="summary-card summary-rate">
+      <span class="summary-num">{{ spam_count|floatformat:0 }}/{{ total }}</span>
+      <span class="summary-label">Spam Rate</span>
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- Results Table -->
+  <div class="glass-card table-card">
+    <table class="results-table" role="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Label</th>
+          <th>Confidence</th>
+          <th>Spam %</th>
+          <th>Ham %</th>
+          <th>Email Preview</th>
+          <th>Keywords</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for text, result in paired %}
+        <tr class="{% if result.label == 'spam' %}row-spam{% else %}row-ham{% endif %}">
+          <td class="row-num">{{ forloop.counter }}</td>
+          <td>
+            <span class="label-badge {% if result.label == 'spam' %}badge-spam{% else %}badge-ham{% endif %}">
+              {% if result.label == 'spam' %}🚫 SPAM{% else %}✅ HAM{% endif %}
+            </span>
+          </td>
+          <td>
+            <div class="mini-bar-wrap">
+              <div class="mini-bar {% if result.label == 'spam' %}mini-bar-spam{% else %}mini-bar-ham{% endif %}" style="width:{{ result.confidence }}%"></div>
+              <span class="mini-val">{{ result.confidence }}%</span>
+            </div>
+          </td>
+          <td class="prob-num spam-num">{{ result.spam_prob }}%</td>
+          <td class="prob-num ham-num">{{ result.ham_prob }}%</td>
+          <td class="email-preview">{{ text|truncatechars:60 }}</td>
+          <td class="keywords-cell">
+            {% for kw in result.top_keywords|slice:":4" %}
+              <span class="kw-mini">{{ kw }}</span>
+            {% endfor %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="result-actions">
+    <a href="{% url 'index' %}" class="btn-primary">🔍 Analyze More</a>
+    <a href="{% url 'export_csv' %}" class="btn-secondary">📥 Export CSV</a>
+    <a href="{% url 'history' %}" class="btn-secondary">🕒 History</a>
+  </div>
+</div>
+{% endblock %}
